@@ -17,7 +17,7 @@ These are the curated source's setup notes, not a script to run on import. Do no
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 15 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 17 selected upstream files are fetched by prepare_library.py into library/entries/02-motionsites-web-builder/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
