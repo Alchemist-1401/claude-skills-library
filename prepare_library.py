@@ -1,69 +1,104 @@
 #!/usr/bin/env python3
-"""Usage: python3 prepare_library.py
-Verify packages and expand into library/ beside this script. No installs, network,
-upstream code execution or writes outside this repository. Existing library/ is
-never overwritten. Requires Python 3.9+ standard library only.
+"""Usage: python3 prepare_library.py [--destination PATH]
+Prepare reviewed skill sources in one NEW folder (default: ./library).
+Requires Python 3.9+ standard library and internet. Downloads public source
+archives at pinned commits, verifies each selected file's hash, and copies the
+repo's own guides/references. Never executes upstream code or installs anything.
+Existing destinations are refused. Failure removes only its own staging folder.
 """
 from pathlib import Path, PurePosixPath
-import hashlib, io, json, os, shutil, stat, tempfile, zipfile
+import argparse, hashlib, json, os, shutil, stat, tarfile, tempfile, urllib.request
 
-def main():
-    root=Path(__file__).resolve().parent
-    target=root/'library'
-    if target.exists():
-        raise SystemExit('library/ already exists. Keep it intact; compare a new prepared copy for updates.')
-    manifest=json.loads((root/'manifest.json').read_text())
-    stage=Path(tempfile.mkdtemp(prefix='.library-prepare-',dir=root))
-    total=0
+
+def safe_path(value):
+    path=PurePosixPath(value)
+    if path.is_absolute() or '..' in path.parts or '\\' in value or not path.parts:
+        raise ValueError('Unsafe relative path: '+value)
+    return path
+
+
+def digest(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def prepare(root, destination, opener=urllib.request.urlopen):
+    if destination.exists() or destination.is_symlink():
+        raise ValueError('Destination already exists; nothing overwritten: '+str(destination))
+    if not destination.parent.is_dir():
+        raise ValueError('Destination parent must already exist')
+    index=json.loads((root/'manifests/index.json').read_text())
+    if index['format']!=2:
+        raise ValueError('Unsupported manifest format')
+    stage=Path(tempfile.mkdtemp(prefix='.claude-library-prepare-',dir=destination.parent))
     try:
-        for item in manifest['packages']:
-            chunks=[]
-            for part in item['parts']:
-                rel=PurePosixPath(part['path'])
-                if rel.is_absolute() or '..' in rel.parts:
-                    raise ValueError('Unsafe package path')
-                source=root/str(rel)
-                if not source.exists():
-                    candidates=list(source.parent.glob('*-'+source.name))
-                    candidates=[p for p in candidates if p.name[:-len(source.name)-1].isdigit()]
-                    if len(candidates)!=1:
-                        raise ValueError('Missing or ambiguous package: '+str(rel))
-                    source=candidates[0]
-                data=source.read_bytes()
-                if hashlib.sha256(data).hexdigest()!=part['sha256']:
-                    raise ValueError('Package hash mismatch: '+str(rel))
-                chunks.append(data)
-            data=b''.join(chunks)
-            if hashlib.sha256(data).hexdigest()!=item['zip_sha256']:
-                raise ValueError('Archive hash mismatch: '+item['name'])
-            with zipfile.ZipFile(io.BytesIO(data)) as z:
-                if len(z.infolist())!=item['files']:
-                    raise ValueError('File count mismatch')
-                for entry in z.infolist():
-                    path=PurePosixPath(entry.filename)
-                    if path.is_absolute() or '..' in path.parts or '\\' in entry.filename:
-                        raise ValueError('Unsafe archive path')
-                    if stat.S_ISLNK(entry.external_attr>>16):
-                        raise ValueError('Archive symlink not allowed')
-                    total+=entry.file_size
-                    if total>500_000_000:
-                        raise ValueError('Archive expansion exceeds 500 MB limit')
-                    destination=stage/str(path)
-                    if entry.is_dir():
-                        destination.mkdir(parents=True,exist_ok=True)
-                    else:
-                        if destination.exists():
-                            raise ValueError('Duplicate archive destination')
-                        destination.parent.mkdir(parents=True,exist_ok=True)
-                        with z.open(entry) as source, destination.open('wb') as output:
-                            shutil.copyfileobj(source,output)
-        if target.exists():
-            raise ValueError('library/ appeared during preparation; leaving it intact')
-        os.rename(stage,target)
-        print('Prepared library/ in this repository. No skill activated and no dependencies installed.')
+        sources=[]
+        for part in index['parts']:
+            obj=json.loads((root/str(safe_path(part))).read_text())
+            sources.extend(obj['sources'])
+        for own in index['own_files']:
+            path=safe_path(own['path']);data=(root/str(path)).read_bytes()
+            if digest(data)!=own['sha256']:
+                raise ValueError('Repository file differs from reviewed manifest: '+str(path))
+            target=stage/str(path);target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(data)
+        for source in sources:
+            entry=str(safe_path(source['entry']))
+            expected={str(safe_path(f['path'])):f for f in source['files']}
+            if not expected:
+                continue
+            repo=source['repo'];commit=source['commit']
+            if not repo or len(repo.split('/'))!=2 or not all(c.isalnum() or c in '/_-. ' for c in repo) or ' ' in repo:
+                raise ValueError('Invalid repository identifier')
+            if not commit or len(commit)!=40 or any(c not in '0123456789abcdef' for c in commit):
+                raise ValueError('Invalid pinned commit')
+            url='https://codeload.github.com/'+repo+'/tar.gz/'+commit
+            print('Fetching pinned source: '+repo,flush=True)
+            request=urllib.request.Request(url,headers={'User-Agent':'Claude-Library-Intake/1.0'})
+            received=0;seen=set()
+            with opener(request,timeout=120) as response, tarfile.open(fileobj=response,mode='r|gz') as archive:
+                for member in archive:
+                    pieces=PurePosixPath(member.name).parts
+                    if len(pieces)<2:
+                        continue
+                    rel='/'.join(pieces[1:])
+                    if rel not in expected:
+                        continue
+                    safe_path(rel)
+                    if not member.isfile() or member.issym() or member.islnk():
+                        raise ValueError('Expected regular source file: '+rel)
+                    spec=expected[rel]
+                    if rel in seen or member.size!=spec['bytes'] or member.size>30_000_000:
+                        raise ValueError('Unexpected size or duplicate source: '+rel)
+                    received+=member.size
+                    if received>250_000_000:
+                        raise ValueError('Source exceeds extraction limit')
+                    handle=archive.extractfile(member)
+                    if handle is None:
+                        raise ValueError('Unreadable source file')
+                    data=handle.read(spec['bytes']+1)
+                    if len(data)!=spec['bytes'] or digest(data)!=spec['sha256']:
+                        raise ValueError('Pinned source hash mismatch: '+repo+'/'+rel)
+                    target=stage/'entries'/entry/'upstream'/rel
+                    target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(data);seen.add(rel)
+            if seen!=set(expected):
+                raise ValueError('Pinned source is incomplete: '+repo)
+        (stage/'PREPARED.md').write_text('# Prepared library\n\nSources are pinned and verified. Nothing was enabled or executed. Read guides/ before using a skill. Authored files and projects/ are separate. Source-linked and incomplete entries remain so.\n')
+        if destination.exists() or destination.is_symlink():
+            raise ValueError('Destination appeared during preparation; preserving it')
+        os.rename(stage,destination)
     finally:
         if stage.exists():
             shutil.rmtree(stage)
+
+
+def main():
+    root=Path(__file__).resolve().parent
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--destination',type=Path,default=root/'library')
+    args=parser.parse_args()
+    # Resolve the parent but not a possibly existing final symlink.
+    destination=args.destination.expanduser().absolute()
+    prepare(root,destination)
+    print('Prepared '+str(destination)+'. No dependencies installed or skills activated.')
 
 if __name__=='__main__':
     main()
