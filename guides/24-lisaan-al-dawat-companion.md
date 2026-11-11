@@ -16,7 +16,7 @@ Use your original lisaan-al-dawat-companion.zip from Oct 28. Unzip it and copy t
 ```
 
 ## What is included here
-Status: incomplete-original-zip-required. 0 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 0 selected upstream files are fetched by prepare_library.py into library/entries/24-lisaan-al-dawat-companion/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
