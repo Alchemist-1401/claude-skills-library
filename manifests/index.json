@@ -18,159 +18,159 @@
   "own_files": [
     {
       "path": "guides/01-taste-skill.md",
-      "sha256": "922db94716bbb6c983b032e9a1b6997512049a23e6186fc562419ffbfa20ab49"
+      "sha256": "4c3a6929b1ffa299564b32b81fb227d2a59b3f5e9f0cd25394a39acb85f5225d"
     },
     {
       "path": "guides/02-motionsites-web-builder.md",
-      "sha256": "a38675d66e98e55cc3dd3f52315fe59d75ab7be47854aaa0bca12f3a2a7650a6"
+      "sha256": "483972399fd35ba9ec822cd53cc4bb7ab473ab00809f2438ffe381aba9ec9fbf"
     },
     {
       "path": "guides/03-ui-ux-pro-max.md",
-      "sha256": "0273e8125e9ddec7f9f79db65e48df11c5a157cb5ae0dc3264b9724474c674e7"
+      "sha256": "40ef1f32619efc4399868ccb43d946b85c4dff0277435d81216275ffa942f503"
     },
     {
       "path": "guides/04-marketing-skills-pack-5-skills.md",
-      "sha256": "a583bf7be3eb995604a939fb2d27befe9ae44b101be21ac1d81fa939809b4edb"
+      "sha256": "ece6bc87f8564e47d02ccd57a633a0a73893931300a79a6070122e836da6fb59"
     },
     {
       "path": "guides/05-instagram-agent-skill-13-skills.md",
-      "sha256": "5e3938b678155df38fda7487eccfedcddbffc4ca5e9b19dd5e758895a0f5f4aa"
+      "sha256": "b1a226760147c6c58a8e4a2bd3a2f1c1cd8f8279dfaeec606afcfc98f4a0dc32"
     },
     {
       "path": "guides/06-logo-design-skill.md",
-      "sha256": "62cc236b223df2d5f9f414a67648df87fe818d0b75407ced32a9118ab9a86b13"
+      "sha256": "364b0b9f54dd5077b478d254eda9ec3b4d34f521f57c0184860d334cd08da624"
     },
     {
       "path": "guides/07-ponytail.md",
-      "sha256": "a1f4506ac707bdfc7e937e173bba0c7c9eb3c804ed5c389b10fb8c2ebe9cc941"
+      "sha256": "98e4db7e289564136096981e059f67d38d846b29ec6cc170871c3c5d187ed698"
     },
     {
       "path": "guides/08-i-have-adhd.md",
-      "sha256": "9669150ffe5f89aaa97654a45453796fdd111b60006aa77aaa7b140502576bdc"
+      "sha256": "d1d3f5165706e65c25758d641666351afc611de27e970d72f03e21044f087d58"
     },
     {
       "path": "guides/09-founder-pricing-strategy.md",
-      "sha256": "e507c345dda88f1ce7f0503da9a5c475846598b870a4f3837331de6d7f4b3379"
+      "sha256": "e24cdebc57d5bde026299597f626f31663f54b878e3eb1b481999d3a6b36d794"
     },
     {
       "path": "guides/10-caveman-the-instruction-only-skill.md",
-      "sha256": "86ba380605b7e296f3025dbea4c47df8330216b392c1aef114d05bc288cfee9e"
+      "sha256": "08a31c37ddf21e06796beb87699fb940e8605ec90d81ac59626b1dceff93df32"
     },
     {
       "path": "guides/11-apple-design.md",
-      "sha256": "ecbcec6ca9b2c5e40f740253488bff1f74addf9bccdf514cf135ca4a0f1171af"
+      "sha256": "1b5120db3e34b1768911897f62f1a16d8a697a07b1b1adaac50fdcefebc6d276"
     },
     {
       "path": "guides/12-lottiefiles-motion-design.md",
-      "sha256": "b0085f39ca2275358c82ed6a03bec6624c9ca3b0071532edf7f873a0453b28cc"
+      "sha256": "b4f47ca0292f004369f520399d4d548c6fc2db9305514132afb0b03fcc925da8"
     },
     {
       "path": "guides/13-artcraft-controls-effectcraft-photocraft-designcraft.md",
-      "sha256": "f3a489c5bd698b081247851768677723ec86a0d0e2fd1ffe14343a2a5a5296eb"
+      "sha256": "735238dfe7427027a0589490e5fdfd3398abcedeae47ebc2a930825e8ca3a596"
     },
     {
       "path": "guides/14-bang-motion.md",
-      "sha256": "e59f937c8fb209479b6a703d8d1063115fbf8fda200ac7a41ae992e088549e6b"
+      "sha256": "c113e3bcc10b5207597188e4fa3d89a1befe8871c1ccbd7a19f603a7a73d3e56"
     },
     {
       "path": "guides/15-charlie-hills-motion-graphics-skills.md",
-      "sha256": "6c7d854171a3ef1efcc462f685ac53c9974aa6ebdf3acaa73529879c74e06022"
+      "sha256": "23174c189a706672e8c1eda2a823e10c7d8211d0bf4daeebb1fb1605c1cd42bd"
     },
     {
       "path": "guides/16-claude-motion-motion-design.md",
-      "sha256": "771b4856a41c9bce3000a639eb2e0046e82fef56361eef6ca3afc90a9ee14171"
+      "sha256": "17e52a31a66c2ad2bc8d59b67ed8f9709baaaf14f39ac4a6d998a09905262e3d"
     },
     {
       "path": "guides/17-lobzyjay-motion-direction-and-critique.md",
-      "sha256": "b618ce9d9f68dfe277c1df7b6835202a1c9b5fea9fc7f78dbd664f0e46228579"
+      "sha256": "86c11290ac49b455d7ddb772e071da3fb1f1e6485096d32774a95b1a68ca2aef"
     },
     {
       "path": "guides/18-remotion-best-practices.md",
-      "sha256": "4d78623ea73a36251bd7e3b73389fcb5743d3b70e9b682bf117c703bfffd39c8"
+      "sha256": "bb129984bda9000e821f2de00e3ab4e05be329c1c6e3b76ec0282094c0b5ecad"
     },
     {
       "path": "guides/19-real-sfx.md",
-      "sha256": "15d3adc4b1dc10abb5209a76072e5a87f3034fe242a62b7a694bb8b1055f2843"
+      "sha256": "24d06af1998fe50d9bdd4b4fa53b2386411a8c0d4be6282de1a8ca7192fc23e4"
     },
     {
       "path": "guides/20-earshot-audio-review-and-real-sound-skills.md",
-      "sha256": "576b265e4333d12348bceae41aeab9ad26f05750f60dd3845d1f00c1c4a71242"
+      "sha256": "978516b23c7f58d755081b76f299e92dae75d72596f27a6b113d9763d1f841d0"
     },
     {
       "path": "guides/21-claude-watch-no-whisper-mode.md",
-      "sha256": "aeee00c31eff69fa94ecba14535dd4f5d04fe687c8a6d850426141cc50cf4cfa"
+      "sha256": "3021cfc7061b3a910472c046166f64259fa082fea3e4cc8ce3e0cc89ed877db2"
     },
     {
       "path": "guides/22-brag.md",
-      "sha256": "53937b945d54bc6f63e9c26339c23cc6691f8a8840ae4bdcceed4ea0d49d3967"
+      "sha256": "9394f12edaf01441152d51e91e5e52d763e7d78b8dc5fd3924d738d73828b8ab"
     },
     {
       "path": "guides/23-agent-reach-public-reading-scope.md",
-      "sha256": "f61b29c466684703709084d00763c18e712bbd83729fcac759c12024c5bf1396"
+      "sha256": "df4a50130849c6a60e00b3953646e2034229d0e822dc2eb9350b8e1944ed83e4"
     },
     {
       "path": "guides/24-lisaan-al-dawat-companion.md",
-      "sha256": "d5dee97230df6cf7ccba29a929b5a1a1fa3cfd8510b93ce592495721e28b5894"
+      "sha256": "e5b342a9c15fa97cce7f3bedcf3ee6cb2423b2b72f1450f8d16f36aadd78a3f8"
     },
     {
       "path": "guides/25-konsiar-motion-reels-v2.md",
-      "sha256": "7d135e8e332614d24abfed94f5e5657b74de9999d89301b23a4d5733bc4b063c"
+      "sha256": "3d4895bc60caba66356b7aaec34cb9897d17b25e4f4c7cfe008c28ff12e8d67e"
     },
     {
       "path": "guides/26-rea-reverse-engineer-anything.md",
-      "sha256": "612d839fe22eb72c6003daf12f979e60f6336b08469b7490271f18e653319cb5"
+      "sha256": "b60bd2a3d626223083e02ffb959191ee78a94fb8f4087b0678884f78a7ad4917"
     },
     {
       "path": "guides/27-velocitas-triple-hook-original-adaptation.md",
-      "sha256": "e54767f01eb4955c03eb78a85566a46fa7e85f70827fcc76fa8604b55d9edd9e"
+      "sha256": "5de3ff99047b55639061499f5b3158f09b562192f171ebb18fc7dc3059774ed6"
     },
     {
       "path": "guides/28-content-principles-by-remy-gaskell.md",
-      "sha256": "e67bd2a2f4662b2af0bb07076a32b4da72971b5f18a42ee4c65aabb1ac0d2a58"
+      "sha256": "bfa257cf9928428c4be0ab1eb7bba44544d496fbe3c0f7665fe49fafc31ceea6"
     },
     {
       "path": "guides/29-cloudflare-security-audit.md",
-      "sha256": "67e55f26d0710dd3e113fb6c85043e9f3915bfa928ce9c01a0694fec9b88a9e3"
+      "sha256": "3fe8de92d70f0dcbd31d0e05876c738ea6a2d498e32d160e966b3cb42747261a"
     },
     {
       "path": "guides/30-matt-pocock-reviewed-engineering-skills.md",
-      "sha256": "e6343b7d5da910c296b24a319473f1f6c276a1db488f7653d3ec8dcfba8b479b"
+      "sha256": "228f02213c9faa8b726d634e1a06719cb1d12e8c52d8b115c3cd49606ff8a27a"
     },
     {
       "path": "guides/31-impeccable.md",
-      "sha256": "09e99a8a5bb4430626b2b6c55ae7405d314136df351f6f49246372f94403a2e5"
+      "sha256": "33e9a8cbcc0ed19b5100766ae0c774bee24b212aee0cbeb5f6494b9e5b9dc140"
     },
     {
       "path": "guides/32-everything-claude-code-coding-standards-only.md",
-      "sha256": "f7a2b9728b7e618f915c4ec7013932cf90d6c7493beda54497a36044e8d1dcf4"
+      "sha256": "86a02e8a0a8022ff075f2503c3d7da5e9cf7028895177349770eb0e75463a08e"
     },
     {
       "path": "guides/33-anatomy.md",
-      "sha256": "a3ae99fc263ff41dc1fbb10554623c9103f8155278c594d0fe4255f5c3e0dcc3"
+      "sha256": "a761b618a5bba38a5a1afb6ba48de048da78f07efa42c955e05ee3b73d0c8c64"
     },
     {
       "path": "guides/34-hallmark.md",
-      "sha256": "caae81afc87c7e14d57a6b380a53b45c67fa14b2f26f2fb579ed2da11be56bc2"
+      "sha256": "e65655e3db20d0f86d5b44857efd06906a4a8fd0c435c7f08e06abbea52e1c2c"
     },
     {
       "path": "guides/35-addy-osmani-source-driven-development.md",
-      "sha256": "7fef4ad567ecbd4a2addca79c291eadbf2fb59d9728db3651b2d0356754c31a2"
+      "sha256": "aa0e2f8ce113c97f983a28aa80964d567b00e2d14122f96bfeb0b4cdcfcd969c"
     },
     {
       "path": "guides/36-graphify-local-code-only-skill.md",
-      "sha256": "c221a3ce3e8a08a21e930a6481be4fb99288ace4d2ff4146c8de00dbd5f56224"
+      "sha256": "033f2ebdb4f4d461266da4e26c1cc2b463c5cf69ec060a629650c6365c356310"
     },
     {
       "path": "guides/37-karpathy-inspired-coding-guidelines.md",
-      "sha256": "60bb0f025c1b644659fc498b53d8321b4dacfa35fcf6fc02aeb0a7cfc23c29e8"
+      "sha256": "776ff8a975a0af5eec0738a88233a3e31db2093ce24d3603f75eda2b4ecf2b85"
     },
     {
       "path": "guides/38-anthropic-frontend-design-and-webapp-testing.md",
-      "sha256": "11c4d1004024ab111b473984b89549b3e56aa226f863ba52a8c48a967fea31e2"
+      "sha256": "98612025bb5e6405ce5a19a4efca368adf8ffae0d985a493b0548ba74edf9116"
     },
     {
       "path": "guides/39-superpowers-debugging-and-verification.md",
-      "sha256": "f4c13b7d476ed70bbdd0ec33b7f5fb9ceae61450e3ba137c350b40675dcd230d"
+      "sha256": "91356f52976668cad9ac93de286e3daac7c361bb8a619ae79aeb5bf3b4021251"
     },
     {
       "path": "authored/content-message-audit.txt",
