@@ -14,7 +14,8 @@
     "manifests/sources-11.json",
     "manifests/sources-12.json",
     "manifests/sources-13.json",
-    "manifests/sources-14.json"
+    "manifests/sources-14.json",
+    "manifests/sources-15.json"
   ],
   "own_files": [
     {
@@ -232,6 +233,18 @@
     {
       "path": "authored/seven-psychology-rules-selling/SKILL.md",
       "sha256": "a8c7a031a0dd6fe27dcee31a1fa0fcb04fc94789b8e1b30cd980b7db006b1d83"
+    },
+    {
+      "path": "guides/42-claude-seo-free-core.md",
+      "sha256": "24f91f956b4235f7eea020e734c6bafe540f4576d13175cb128e073877e4b2b9"
+    },
+    {
+      "path": "guides/43-geo-seo-claude-audit.md",
+      "sha256": "743d2a73fffc5666d1901e685fb3374171df75e78a2f057d9025fbef44f49a40"
+    },
+    {
+      "path": "references/tools/seo-mcp-tools.md",
+      "sha256": "37f626137af2b88f628472e479f5cec517d59167b5ba052a63c815de565cda50"
     }
   ]
 }
