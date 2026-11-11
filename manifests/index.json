@@ -224,6 +224,14 @@
     {
       "path": "guides/40-vercel-find-skills.md",
       "sha256": "e92cf8a2b5ff4ec5fda681c6afd6a8de2aa18f6b363602eeda4b38a51ccaa5b1"
+    },
+    {
+      "path": "guides/41-seven-psychology-rules-selling.md",
+      "sha256": "4c85b4b979cf1ee75815fbcdc2813d3ced3a8366e16820a058566ef189156dfd"
+    },
+    {
+      "path": "authored/seven-psychology-rules-selling/SKILL.md",
+      "sha256": "a8c7a031a0dd6fe27dcee31a1fa0fcb04fc94789b8e1b30cd980b7db006b1d83"
     }
   ]
 }
