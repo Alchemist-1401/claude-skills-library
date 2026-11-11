@@ -13,7 +13,8 @@
     "manifests/sources-10.json",
     "manifests/sources-11.json",
     "manifests/sources-12.json",
-    "manifests/sources-13.json"
+    "manifests/sources-13.json",
+    "manifests/sources-14.json"
   ],
   "own_files": [
     {
@@ -219,6 +220,10 @@
     {
       "path": "projects/personal/personal-practice.md",
       "sha256": "402917e4895794d1d2f1a2b205319184b596f444f2414f007216854aafb31342"
+    },
+    {
+      "path": "guides/40-vercel-find-skills.md",
+      "sha256": "e92cf8a2b5ff4ec5fda681c6afd6a8de2aa18f6b363602eeda4b38a51ccaa5b1"
     }
   ]
 }
