@@ -16,7 +16,7 @@ Copy the complete skills/frontend-design and skills/webapp-testing folders, incl
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 8 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 10 selected upstream files are fetched by prepare_library.py into library/entries/38-anthropic-frontend-design-and-webapp-testing/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
