@@ -16,7 +16,7 @@ Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd,
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 3 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 5 selected upstream files are fetched by prepare_library.py into library/entries/08-i-have-adhd/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
