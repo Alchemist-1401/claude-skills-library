@@ -1,6 +1,6 @@
 # Skill catalog and usage guides
 
-41 entries. For local source intake, use README.md and prepare_library.py. Individual usage files are also readable in guides/.
+43 entries. For local source intake, use README.md and prepare_library.py. Individual usage files are also readable in guides/.
 
 
 ---
@@ -1320,3 +1320,69 @@ Paraphrased from the user-shared reel "7 Psychology rules for selling anything t
 These are one creator's rules of thumb, not established universal buyer facts. The recovered reel supplied no study citations; the creator's income claim is not used as evidence. The skill preserves attribution and does not reproduce the video, transcript or promotional income claims. No license for the original video is asserted. Only the newly authored paraphrase is included here; no external download is needed.
 
 Checked: 11 November 2026. No manipulation, fake urgency, invented scarcity, exaggerated pain or new promises. A refusal or opt-out ends the pitch.
+
+---
+
+# Claude SEO (free core)
+
+## When to use
+Audit technical SEO, content, structured data, sitemaps and page quality for a specific website. This is `AgriciDaniel/claude-seo`, the first project shown in the user-shared reel. It overlaps with the existing marketing pack's SEO audit, but is a separate specialist project, not a duplicate copy of that skill.
+
+## How to use
+Read the pinned `skills/seo/SKILL.md` and the relevant sub-skill. Start with a single page and request evidence, not a blanket rewrite:
+
+> Review this page for technical SEO, content and schema using Claude SEO's free core. Show observed issues, distinguish measured results from estimates, and rank a small set of fixes. Do not deploy changes or connect any service.
+
+If separately installed and configured in Claude Code, `/seo page <url>` is the single-page entry point; `/seo audit <url>` is the broader audit. The library itself does not create these commands.
+
+## Setup and source intake
+`prepare_library.py` retrieves selected audit skill Markdown, root README/license/privacy/security notes at commit `cca7e4a267991aca880efade1fd12e8498caf2ce` into `library/entries/42-claude-seo-free-core/upstream/`. These are reference instructions, not a runnable plugin installation. Scripts, runtime, agents, media, paid extensions and some referenced supporting files are not included. Use the original source for a complete setup if later approved; do not run the whole pack just because it appears in the upstream README.
+
+The upstream public plugin setup is `/plugin marketplace add AgriciDaniel/claude-seo`, then `/plugin install claude-seo@agricidaniel-claude-seo`. `/seo setup` is a separate dependency/browser setup action. These are reference commands, not run here. Current requirements: Claude Code 1.0.33+ and Python 3.11-3.14; browser checks need its separate Chromium runtime. Existing Claude access/allowance is separate.
+
+## Free scope and limits
+The public source is MIT licensed; the README says the core works without API keys. Only no-key core audit guidance is reviewed here. Private Pro versions, DataForSEO, Firecrawl, Ahrefs, SE Ranking, Profound, image generation and other paid/API-dependent extensions are outside this entry. Google and backlink API integrations are not enabled or included as ready-to-use paths.
+
+Without field data, lab estimates are not real-user Core Web Vitals and page inspection does not prove indexing. A scan is not a ranking or revenue guarantee. Audited content is processed through the Claude session; consult the source privacy note before supplying private pages. An audit does not authorize account connections, publication or site changes.
+
+## Sources
+- Original repository, README and MIT license: https://github.com/AgriciDaniel/claude-seo/
+- User-shared reel: https://www.instagram.com/reel/DfioPDmHCCs/
+- Checked: 11 November 2026. Reel star counts, timings and claims that all four tools must be installed are not adopted as facts.
+
+
+---
+
+# GEO SEO Claude (audit scope)
+
+## When to use
+Review a site's AI-search readiness: crawler access, answer clarity, content structure and schema. This is `zubair-trabzada/geo-seo-claude`, the second repository shown in the user-shared reel. It is separate from Claude SEO, though their GEO and technical checks overlap; choose the smallest relevant skill rather than run both automatically.
+
+## How to use
+Read `geo/SKILL.md` and the relevant audit sub-skill, then supply an actual page or URL:
+
+> Check this page's AI-search readiness with GEO SEO Claude. Explain crawler-access and content issues with evidence. Treat citability scores as heuristics, not proof ChatGPT, Perplexity or Google will cite it. Suggest a few fixes without deploying anything.
+
+After a separately approved full installation, `/geo quick <url>`, `/geo crawlers <url>` and `/geo citability <url>` are focused entry points; `/geo audit <url>` is broader. The library does not register those commands.
+
+## Setup and source intake
+`prepare_library.py` fetches selected audit skill Markdown plus README, MIT license and dependency list at commit `989cae01e8ebbc42a9ec798eb9e7cb423f5ec89c` into `library/entries/43-geo-seo-claude-audit/upstream/`. This is an audit-reference subset, not a runnable installation. Scripts, agents, report templates/media, prospect CRM, proposals, monthly tracking and auto-update skills are not supplied. Some upstream instructions still refer to those omitted files; retrieve a needed dependency from the pinned original source only after deciding on setup.
+
+The source requires Claude Code, Git and Python 3.10+; its installer creates a virtual environment under `~/.claude/skills/geo/.venv/` and adds skill/agent files. Optional screenshot/report workflows have further dependencies. Inspect the installer and intended scope first. Do not use the upstream pipe-to-shell quick-start as an automatic intake step. Nothing was installed here.
+
+## Free scope and limits
+The source is MIT licensed and describes the tool as free. The selected public-page audit guidance requires no paid API account. Claude access/allowance is separate. The creator's paid community, monetization advice, agency pricing and revenue claims are not included or verified.
+
+A readiness score is not observed AI visibility, a scientific citation probability or a guarantee of ranking, traffic or sales. Upstream market statistics, passage-length targets and brand-correlation claims need independent evidence before being used as client-facing facts. Do not assume `llms.txt` makes a page indexed or cited. Respect site crawl limits and use only public or authorized content. Review report claims before sharing them. Site changes and outreach remain subject to the owner's existing scope.
+
+## Sources
+- Original repository, README and MIT license: https://github.com/zubair-trabzada/geo-seo-claude
+- User-shared reel: https://www.instagram.com/reel/DfioPDmHCCs/
+- Checked: 11 November 2026. No CRM, prospect, proposal or follow-up settings were changed.
+
+
+---
+
+## Separate tool references
+
+Chrome DevTools MCP and Search Console MCP from the SEO reel are documented in `references/tools/seo-mcp-tools.md`, not counted as skills or automatically installed.
