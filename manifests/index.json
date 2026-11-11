@@ -1,0 +1,224 @@
+{
+  "format": 2,
+  "parts": [
+    "manifests/sources-01.json",
+    "manifests/sources-02.json",
+    "manifests/sources-03.json",
+    "manifests/sources-04.json",
+    "manifests/sources-05.json",
+    "manifests/sources-06.json",
+    "manifests/sources-07.json",
+    "manifests/sources-08.json",
+    "manifests/sources-09.json",
+    "manifests/sources-10.json",
+    "manifests/sources-11.json",
+    "manifests/sources-12.json",
+    "manifests/sources-13.json"
+  ],
+  "own_files": [
+    {
+      "path": "guides/01-taste-skill.md",
+      "sha256": "922db94716bbb6c983b032e9a1b6997512049a23e6186fc562419ffbfa20ab49"
+    },
+    {
+      "path": "guides/02-motionsites-web-builder.md",
+      "sha256": "a38675d66e98e55cc3dd3f52315fe59d75ab7be47854aaa0bca12f3a2a7650a6"
+    },
+    {
+      "path": "guides/03-ui-ux-pro-max.md",
+      "sha256": "0273e8125e9ddec7f9f79db65e48df11c5a157cb5ae0dc3264b9724474c674e7"
+    },
+    {
+      "path": "guides/04-marketing-skills-pack-5-skills.md",
+      "sha256": "a583bf7be3eb995604a939fb2d27befe9ae44b101be21ac1d81fa939809b4edb"
+    },
+    {
+      "path": "guides/05-instagram-agent-skill-13-skills.md",
+      "sha256": "5e3938b678155df38fda7487eccfedcddbffc4ca5e9b19dd5e758895a0f5f4aa"
+    },
+    {
+      "path": "guides/06-logo-design-skill.md",
+      "sha256": "62cc236b223df2d5f9f414a67648df87fe818d0b75407ced32a9118ab9a86b13"
+    },
+    {
+      "path": "guides/07-ponytail.md",
+      "sha256": "a1f4506ac707bdfc7e937e173bba0c7c9eb3c804ed5c389b10fb8c2ebe9cc941"
+    },
+    {
+      "path": "guides/08-i-have-adhd.md",
+      "sha256": "9669150ffe5f89aaa97654a45453796fdd111b60006aa77aaa7b140502576bdc"
+    },
+    {
+      "path": "guides/09-founder-pricing-strategy.md",
+      "sha256": "e507c345dda88f1ce7f0503da9a5c475846598b870a4f3837331de6d7f4b3379"
+    },
+    {
+      "path": "guides/10-caveman-the-instruction-only-skill.md",
+      "sha256": "86ba380605b7e296f3025dbea4c47df8330216b392c1aef114d05bc288cfee9e"
+    },
+    {
+      "path": "guides/11-apple-design.md",
+      "sha256": "ecbcec6ca9b2c5e40f740253488bff1f74addf9bccdf514cf135ca4a0f1171af"
+    },
+    {
+      "path": "guides/12-lottiefiles-motion-design.md",
+      "sha256": "b0085f39ca2275358c82ed6a03bec6624c9ca3b0071532edf7f873a0453b28cc"
+    },
+    {
+      "path": "guides/13-artcraft-controls-effectcraft-photocraft-designcraft.md",
+      "sha256": "f3a489c5bd698b081247851768677723ec86a0d0e2fd1ffe14343a2a5a5296eb"
+    },
+    {
+      "path": "guides/14-bang-motion.md",
+      "sha256": "e59f937c8fb209479b6a703d8d1063115fbf8fda200ac7a41ae992e088549e6b"
+    },
+    {
+      "path": "guides/15-charlie-hills-motion-graphics-skills.md",
+      "sha256": "6c7d854171a3ef1efcc462f685ac53c9974aa6ebdf3acaa73529879c74e06022"
+    },
+    {
+      "path": "guides/16-claude-motion-motion-design.md",
+      "sha256": "771b4856a41c9bce3000a639eb2e0046e82fef56361eef6ca3afc90a9ee14171"
+    },
+    {
+      "path": "guides/17-lobzyjay-motion-direction-and-critique.md",
+      "sha256": "b618ce9d9f68dfe277c1df7b6835202a1c9b5fea9fc7f78dbd664f0e46228579"
+    },
+    {
+      "path": "guides/18-remotion-best-practices.md",
+      "sha256": "4d78623ea73a36251bd7e3b73389fcb5743d3b70e9b682bf117c703bfffd39c8"
+    },
+    {
+      "path": "guides/19-real-sfx.md",
+      "sha256": "15d3adc4b1dc10abb5209a76072e5a87f3034fe242a62b7a694bb8b1055f2843"
+    },
+    {
+      "path": "guides/20-earshot-audio-review-and-real-sound-skills.md",
+      "sha256": "576b265e4333d12348bceae41aeab9ad26f05750f60dd3845d1f00c1c4a71242"
+    },
+    {
+      "path": "guides/21-claude-watch-no-whisper-mode.md",
+      "sha256": "aeee00c31eff69fa94ecba14535dd4f5d04fe687c8a6d850426141cc50cf4cfa"
+    },
+    {
+      "path": "guides/22-brag.md",
+      "sha256": "53937b945d54bc6f63e9c26339c23cc6691f8a8840ae4bdcceed4ea0d49d3967"
+    },
+    {
+      "path": "guides/23-agent-reach-public-reading-scope.md",
+      "sha256": "f61b29c466684703709084d00763c18e712bbd83729fcac759c12024c5bf1396"
+    },
+    {
+      "path": "guides/24-lisaan-al-dawat-companion.md",
+      "sha256": "d5dee97230df6cf7ccba29a929b5a1a1fa3cfd8510b93ce592495721e28b5894"
+    },
+    {
+      "path": "guides/25-konsiar-motion-reels-v2.md",
+      "sha256": "7d135e8e332614d24abfed94f5e5657b74de9999d89301b23a4d5733bc4b063c"
+    },
+    {
+      "path": "guides/26-rea-reverse-engineer-anything.md",
+      "sha256": "612d839fe22eb72c6003daf12f979e60f6336b08469b7490271f18e653319cb5"
+    },
+    {
+      "path": "guides/27-velocitas-triple-hook-original-adaptation.md",
+      "sha256": "e54767f01eb4955c03eb78a85566a46fa7e85f70827fcc76fa8604b55d9edd9e"
+    },
+    {
+      "path": "guides/28-content-principles-by-remy-gaskell.md",
+      "sha256": "e67bd2a2f4662b2af0bb07076a32b4da72971b5f18a42ee4c65aabb1ac0d2a58"
+    },
+    {
+      "path": "guides/29-cloudflare-security-audit.md",
+      "sha256": "67e55f26d0710dd3e113fb6c85043e9f3915bfa928ce9c01a0694fec9b88a9e3"
+    },
+    {
+      "path": "guides/30-matt-pocock-reviewed-engineering-skills.md",
+      "sha256": "e6343b7d5da910c296b24a319473f1f6c276a1db488f7653d3ec8dcfba8b479b"
+    },
+    {
+      "path": "guides/31-impeccable.md",
+      "sha256": "09e99a8a5bb4430626b2b6c55ae7405d314136df351f6f49246372f94403a2e5"
+    },
+    {
+      "path": "guides/32-everything-claude-code-coding-standards-only.md",
+      "sha256": "f7a2b9728b7e618f915c4ec7013932cf90d6c7493beda54497a36044e8d1dcf4"
+    },
+    {
+      "path": "guides/33-anatomy.md",
+      "sha256": "a3ae99fc263ff41dc1fbb10554623c9103f8155278c594d0fe4255f5c3e0dcc3"
+    },
+    {
+      "path": "guides/34-hallmark.md",
+      "sha256": "caae81afc87c7e14d57a6b380a53b45c67fa14b2f26f2fb579ed2da11be56bc2"
+    },
+    {
+      "path": "guides/35-addy-osmani-source-driven-development.md",
+      "sha256": "7fef4ad567ecbd4a2addca79c291eadbf2fb59d9728db3651b2d0356754c31a2"
+    },
+    {
+      "path": "guides/36-graphify-local-code-only-skill.md",
+      "sha256": "c221a3ce3e8a08a21e930a6481be4fb99288ace4d2ff4146c8de00dbd5f56224"
+    },
+    {
+      "path": "guides/37-karpathy-inspired-coding-guidelines.md",
+      "sha256": "60bb0f025c1b644659fc498b53d8321b4dacfa35fcf6fc02aeb0a7cfc23c29e8"
+    },
+    {
+      "path": "guides/38-anthropic-frontend-design-and-webapp-testing.md",
+      "sha256": "11c4d1004024ab111b473984b89549b3e56aa226f863ba52a8c48a967fea31e2"
+    },
+    {
+      "path": "guides/39-superpowers-debugging-and-verification.md",
+      "sha256": "f4c13b7d476ed70bbdd0ec33b7f5fb9ceae61450e3ba137c350b40675dcd230d"
+    },
+    {
+      "path": "authored/content-message-audit.txt",
+      "sha256": "3867bb18c29bda92b3708c1136e589aa55ec8efc5004f92b7705e7cadada11b6"
+    },
+    {
+      "path": "authored/konsiar-v2-original.txt",
+      "sha256": "29e1a34f2ff825a6d46d2021db3e7fe8482f64231407aaca9998bc7e5949b283"
+    },
+    {
+      "path": "authored/lisaan-skill-original.txt",
+      "sha256": "ac128ad1a6ad250f67d7fa76ef5512a02848bcc11d56eb857e144261f6d0a217"
+    },
+    {
+      "path": "authored/velocitas-triple-hook.txt",
+      "sha256": "3b3153783eb03e6492485cd7ebf35e82db9a7178bca7b43161163935f2eb3136"
+    },
+    {
+      "path": "projects/business-packs/agency-framework.md",
+      "sha256": "78a627fa83230a7b2335a9e3904de0e70a605386b290c35e1e51beb3a70f2e09"
+    },
+    {
+      "path": "projects/business-packs/onboarding.md",
+      "sha256": "9b3b078cab8b504949e4cb23b7be1194c1620e3a7fefc69e5964de04d3e80181"
+    },
+    {
+      "path": "projects/konsiar/konsiar-design.md",
+      "sha256": "17321ce4ed66b4de2d7b7567fc4e3a72d514912084abf7309a208ea2a1c77ba4"
+    },
+    {
+      "path": "projects/konsiar/konsiar-engineering.md",
+      "sha256": "1b9194493d73c385c18a4a2dc1bfa00d4461dcbde20b806069f6614426c73d89"
+    },
+    {
+      "path": "projects/konsiar/konsiar-marketing.md",
+      "sha256": "60e87030b3723091dbda279e9a72abac7f49ad55c99fc9b7b228f78c4c5fb64c"
+    },
+    {
+      "path": "projects/outreach/outreach-reliability.md",
+      "sha256": "817b4c07871b80d8ac14e5c4b4ea845769c205ecf3dc23fa1e5d9395cebfd688"
+    },
+    {
+      "path": "projects/outreach/outreach-review.md",
+      "sha256": "107e050859fd1ab46c73611629783ac6eeb64676886672d7e76cd5519dfa1f0f"
+    },
+    {
+      "path": "projects/personal/personal-practice.md",
+      "sha256": "402917e4895794d1d2f1a2b205319184b596f444f2414f007216854aafb31342"
+    }
+  ]
+}
