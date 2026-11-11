@@ -18,7 +18,7 @@ cp -r instagram-agent-skill/skills/ig-* .claude/skills/
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 22 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 24 selected upstream files are fetched by prepare_library.py into library/entries/05-instagram-agent-skill-13-skills/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
