@@ -14,7 +14,7 @@ Claude needs authenticated access to this private repository. A link alone does 
 
 1. Clone or download this repository into one dedicated folder, such as `~/Claude-Library`.
 2. Read `CATALOG.md` or the individual files in `guides/`.
-3. For local source intake, run `python3 prepare_library.py`. It fetches selected files from original public GitHub repositories at pinned commits, verifies each file's hash, preserves source licenses, and puts the result in one new `library/` folder. Python 3.9+ and internet are required.
+3. For local source intake, run `python3 prepare_library.py`. It fetches selected files from original public GitHub repositories at pinned commits, verifies each file's hash, preserves source licenses, and puts the result in one new `library/` folder. Python 3.9+ and internet are required. Where the GitHub archive host is blocked (as in Claude Code cloud sessions), it fetches each selected file from raw.githubusercontent.com at the same pinned commit instead, with the same size and hash checks.
 4. Read the chosen guide and its source. Use or set up only the skill needed in the intended project. Do not copy the whole library into `.claude/skills`.
 
 Preparation downloads reference files. It does not execute upstream scripts, install dependencies, activate plugins, change global settings or touch other projects. Existing destinations are refused. On failure, only the script's own temporary staging folder is removed. `--destination PATH` selects a different new folder; its parent must already exist.
