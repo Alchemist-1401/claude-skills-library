@@ -1,0 +1,40 @@
+---
+name: content-message-audit
+description: Review a short-form idea or script for lived experience, a clear message, an honest unanswered question and audience fit before choosing a format.
+---
+
+# Content message audit
+
+Original instruction-only companion by Instinct, requested 9 Nov 2026. Adapted from Martin Wang's content-myths reel, not his official skill or a transcript. Complements Content Principles and Triple Hook; do not install duplicate copies of those methods.
+
+## When to use
+Use before polishing a reel, carousel or founder post, or when a draft copies a successful format but has little to say. Work from supplied facts and real experience. No API, MCP, paid download, software installation or automatic publishing is required. Existing Claude access and allowance apply.
+
+## Inputs
+Read the intended project brief, audience and existing voice examples. Identify the topic, intended viewer, useful takeaway and evidence available. If an experience, result or statistic is missing, mark it unknown. Never create a personal memory or client success story to make the script sound authentic.
+
+Keep Konsiar, Velocitas and personal work separate. For F1 commentary, use verified race facts and describe analysis as analysis; the user need not have driven a race car or worked in a paddock. For Konsiar, use actual product work and clearly marked demonstrations, not invented paying clients or unapproved capabilities.
+
+## Review sequence
+1. Message before format. State the useful takeaway in one plain sentence. If there is no clear takeaway, diagnose the gap before applying editing tricks. A copied format is a presentation choice, not evidence that a message works.
+2. Experience before authority. Ask what the creator genuinely learned, tried, noticed or needs to hear. Translate that into a useful account for a similar viewer. Prefer specific evidence to generic advice. Do not force a confession or pretend the creator knows better than every viewer. Research and sourced explanation remain valid when personal experience is unavailable.
+3. One honest question. Identify what a viewer should want to find out. The opening may ask directly or create a clear, relevant information gap. Write the question in the review notes even if it is implicit in the script. Name the evidence-backed payoff and make sure the body supplies it. No withholding the answer only to manufacture watch time, fake stakes or unrelated curiosity bait.
+4. Choose the format last. Use an existing suitable project format only after the message is clear. If using Triple Hook, apply its checks rather than restating it as another mandatory formula. Format cannot guarantee reach. Improve ideation and scripting before adding effects; the reel's 80% scripting claim is the creator's practice, not a measured optimum or a required time quota.
+5. Topic and audience fit. Prefer subjects the creator can discuss with real detail from current work or sustained interest. Treat the reel's niche advice as a creator-learning perspective, not a command to abandon audience needs, the user's F1 focus, Konsiar positioning or business targeting rules. The caption is more qualified than a blanket 'never pick a niche': practicing on familiar material can develop fundamentals, then interests and direction may change.
+6. Evidence and attention check. Mark unsupported claims and remove inflated promises. No guaranteed growth, invented analytics or implication that follower counts equal revenue. A content experiment is not a substitute for the user's urgent client-acquisition work. Do not start a new posting cadence or build project unless asked.
+
+## Output
+Return:
+- Message: one sentence.
+- Evidence: supplied experience/facts, sourced analysis and remaining unknowns.
+- Viewer question -> promised payoff.
+- Short review: keep/change/remove, with reasons tied to the draft.
+- Revised draft only when requested; preserve project voice and boundaries.
+- One modest test: what to compare in feedback or audience response, without predicting a result.
+
+Draft only. Do not post, comment, DM, enroll in training, install tools or change accounts. Do not prepare unsolicited prospect messages.
+
+## Source and limits
+https://www.instagram.com/reel/DccfAqegysL/
+https://www.instagram.com/martinwang.mp4/reel/DccfAqegysL/
+Full 56-second narration, visual sequence and caption inspected on 9 Nov 2026. The reel contrasts two creator approaches: advice, hooks, formats, niches and learning from others. Its final follow-the-creator CTA is not a skill requirement. The caption reports 10K and 15K follower milestones, including 15K with 12 posts; these are creator claims, not independently verified evidence of causation or likely user results. This companion expresses the concepts in original wording and does not redistribute the video or a creator course.
