@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "packages": [
+    {
+      "name": "library",
+      "parts": [
+        {
+          "path": "packages/library.zip.part01",
+          "sha256": "5deaa6fa3e1689b3f536e789948d10f911cef96b0946a6c87f8c27e8ff59b415"
+        },
+        {
+          "path": "packages/library.zip.part02",
+          "sha256": "c2815593575aaf02a512e6ba6d0684d77fdf2498c5340decbc2f6c674b56e106"
+        },
+        {
+          "path": "packages/library.zip.part03",
+          "sha256": "c2c3caba87235d08acf0e474076b9729e0f0ac6cb05254a2d707b5a1a7d0e3f8"
+        },
+        {
+          "path": "packages/library.zip.part04",
+          "sha256": "b796e9a52f7e8c467bcc3594b6de07c31a4bcade7f0c09c8d650cc9a43f868dd"
+        },
+        {
+          "path": "packages/library.zip.part05",
+          "sha256": "3a1d31c75c048e65dd42b6d4628d6a26b44a501ecae29c46337e584bded0ceb2"
+        }
+      ],
+      "zip_sha256": "7481a6d7cb39feac1a69ab723ed7fc8aefa6826923e7033fdc32b3c2d7254d60",
+      "files": 4325
+    }
+  ]
+}
