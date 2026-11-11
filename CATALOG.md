@@ -1,6 +1,6 @@
 # Skill catalog and usage guides
 
-39 entries. For local source files run the one-folder preparation described in README.md. Each entry has its own README in library/entries after preparation.
+39 entries. For local source intake, use README.md and prepare_library.py. Individual usage files are also readable in guides/.
 
 
 ---
@@ -23,7 +23,7 @@ npx skills add https://github.com/Leonxlnx/taste-skill --skill design-taste-fron
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 1631 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 1482 selected upstream files are fetched by prepare_library.py into library/entries/01-taste-skill/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -54,7 +54,7 @@ These are the curated source's setup notes, not a script to run on import. Do no
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 15 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 17 selected upstream files are fetched by prepare_library.py into library/entries/02-motionsites-web-builder/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -134,7 +134,7 @@ npx ui-ux-pro-max-cli init --ai claude
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 47 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 49 selected upstream files are fetched by prepare_library.py into library/entries/03-ui-ux-pro-max/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -164,7 +164,7 @@ npx skills add coreyhaines31/marketingskills --skill cold-email sales-enablement
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 44 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 46 selected upstream files are fetched by prepare_library.py into library/entries/04-marketing-skills-pack-5-skills/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -196,7 +196,7 @@ cp -r instagram-agent-skill/skills/ig-* .claude/skills/
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 22 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 24 selected upstream files are fetched by prepare_library.py into library/entries/05-instagram-agent-skill-13-skills/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -227,7 +227,7 @@ These are the curated source's setup notes, not a script to run on import. Do no
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 1462 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 1464 selected upstream files are fetched by prepare_library.py into library/entries/06-logo-design-skill/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -258,7 +258,7 @@ These are the curated source's setup notes, not a script to run on import. Do no
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 1 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 3 selected upstream files are fetched by prepare_library.py into library/entries/07-ponytail/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -288,7 +288,7 @@ Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd,
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 3 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 5 selected upstream files are fetched by prepare_library.py into library/entries/08-i-have-adhd/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -321,7 +321,7 @@ Then use /founder:pricing-strategy
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 1 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 3 selected upstream files are fetched by prepare_library.py into library/entries/09-founder-pricing-strategy/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -351,7 +351,7 @@ Copy the upstream skills/caveman folder into .claude/skills/caveman in the inten
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 2 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 6 selected upstream files are fetched by prepare_library.py into library/entries/10-caveman-the-instruction-only-skill/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -381,7 +381,7 @@ npx skills add emilkowalski/skills --skill apple-design
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 1 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 3 selected upstream files are fetched by prepare_library.py into library/entries/11-apple-design/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -411,7 +411,7 @@ npx skills add LottieFiles/motion-design-skill
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 17 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 19 selected upstream files are fetched by prepare_library.py into library/entries/12-lottiefiles-motion-design/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -441,7 +441,7 @@ Clone https://github.com/midasmatterhorn/artcraft-skills. Copy the complete effe
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 15 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 17 selected upstream files are fetched by prepare_library.py into library/entries/13-artcraft-controls-effectcraft-photocraft-designcraft/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -472,7 +472,7 @@ These are the curated source's setup notes, not a script to run on import. Do no
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 45 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 31 selected upstream files are fetched by prepare_library.py into library/entries/14-bang-motion/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -504,7 +504,7 @@ Select the workflows you need. Leave model-showdown unselected unless you alread
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 16 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 18 selected upstream files are fetched by prepare_library.py into library/entries/15-charlie-hills-motion-graphics-skills/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -534,7 +534,7 @@ Clone https://github.com/whaleyxbt/claude-motion. Copy its complete .claude/skil
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 1 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 3 selected upstream files are fetched by prepare_library.py into library/entries/16-claude-motion-motion-design/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -564,7 +564,7 @@ Clone https://github.com/LobzyJay/motion-design-with-claude-and-codex. Copy only
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 10 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 12 selected upstream files are fetched by prepare_library.py into library/entries/17-lobzyjay-motion-direction-and-critique/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -594,7 +594,7 @@ npx skills add remotion-dev/skills
 ```
 
 ## What is included here
-Status: guide-and-source-link. 0 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 0 selected upstream files are fetched by prepare_library.py into library/entries/18-remotion-best-practices/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 No standalone redistribution license found in the source checkout; official setup remains source-linked.
 
@@ -624,7 +624,7 @@ Download the free real-sfx.skill package from the source page, or copy the compl
 ```
 
 ## What is included here
-Status: guide-and-source-link. 0 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 0 selected upstream files are fetched by prepare_library.py into library/entries/19-real-sfx/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 Use official .skill download; sound/script redistribution terms stay with that source.
 
@@ -657,7 +657,7 @@ Also copy the repository's complete skills/earshot and skills/real-sound folders
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 34 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 36 selected upstream files are fetched by prepare_library.py into library/entries/20-earshot-audio-review-and-real-sound-skills/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -690,7 +690,7 @@ Use /watch with --no-whisper. Do not set Groq/OpenAI transcription keys.
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 23 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 21 selected upstream files are fetched by prepare_library.py into library/entries/21-claude-watch-no-whisper-mode/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -721,7 +721,7 @@ These are the curated source's setup notes, not a script to run on import. Do no
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 289 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 26 selected upstream files are fetched by prepare_library.py into library/entries/22-brag/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -751,7 +751,7 @@ Give Claude the official install guide from https://github.com/Panniantong/Agent
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 5 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 7 selected upstream files are fetched by prepare_library.py into library/entries/23-agent-reach-public-reading-scope/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -781,7 +781,7 @@ Use your original lisaan-al-dawat-companion.zip from Oct 28. Unzip it and copy t
 ```
 
 ## What is included here
-Status: incomplete-original-zip-required. 0 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 0 selected upstream files are fetched by prepare_library.py into library/entries/24-lisaan-al-dawat-companion/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -813,7 +813,7 @@ Copy the original files below to their marked paths in the Konsiar project only.
 ```
 
 ## What is included here
-Status: guide-and-source-link. 0 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 0 selected upstream files are fetched by prepare_library.py into library/entries/25-konsiar-motion-reels-v2/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -845,7 +845,7 @@ Review the local server and skill configuration changes before approving. Use st
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 9 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 12 selected upstream files are fetched by prepare_library.py into library/entries/26-rea-reverse-engineer-anything/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -875,7 +875,7 @@ Open the complete skill disclosure below. Copy all text and save it as .claude/s
 ```
 
 ## What is included here
-Status: guide-and-source-link. 0 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 0 selected upstream files are fetched by prepare_library.py into library/entries/27-velocitas-triple-hook-original-adaptation/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -909,7 +909,7 @@ Optional Martin Wang companion: open the original message-audit disclosure, copy
 ```
 
 ## What is included here
-Status: guide-and-source-link. 0 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 0 selected upstream files are fetched by prepare_library.py into library/entries/28-content-principles-by-remy-gaskell/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 No redistribution license found for Remy source. The authored message-audit companion is included separately.
 
@@ -939,7 +939,7 @@ npx skills add https://github.com/cloudflare/security-audit-skill --skill securi
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 20 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 22 selected upstream files are fetched by prepare_library.py into library/entries/29-cloudflare-security-audit/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -969,7 +969,7 @@ Download https://github.com/mattpocock/skills into a separate reference folder. 
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 12 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 14 selected upstream files are fetched by prepare_library.py into library/entries/30-matt-pocock-reviewed-engineering-skills/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -1000,7 +1000,7 @@ Choose project scope and your actual coding tool. Review the optional hook befor
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 58 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 61 selected upstream files are fetched by prepare_library.py into library/entries/31-impeccable/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -1030,7 +1030,7 @@ Download the repository from the source link. Copy only skills/coding-standards/
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 1 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 3 selected upstream files are fetched by prepare_library.py into library/entries/32-everything-claude-code-coding-standards-only/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -1060,7 +1060,7 @@ npx skills add wheresryan22/anatomy -a claude-code
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 159 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 132 selected upstream files are fetched by prepare_library.py into library/entries/33-anatomy/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -1091,7 +1091,7 @@ For full local browser checks, install puppeteer-core in the intended developmen
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 187 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 139 selected upstream files are fetched by prepare_library.py into library/entries/34-hallmark/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -1121,7 +1121,7 @@ Copy skills/source-driven-development/SKILL.md from the source repository into .
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 1 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 3 selected upstream files are fetched by prepare_library.py into library/entries/35-addy-osmani-source-driven-development/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -1155,7 +1155,7 @@ Query the resulting local graph with graphify query, graphify path or graphify e
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 9 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 13 selected upstream files are fetched by prepare_library.py into library/entries/36-graphify-local-code-only-skill/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -1185,7 +1185,7 @@ Copy skills/karpathy-guidelines/SKILL.md from the repository into .claude/skills
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 1 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 2 selected upstream files are fetched by prepare_library.py into library/entries/37-karpathy-inspired-coding-guidelines/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -1215,7 +1215,7 @@ Copy the complete skills/frontend-design and skills/webapp-testing folders, incl
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 8 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 10 selected upstream files are fetched by prepare_library.py into library/entries/38-anthropic-frontend-design-and-webapp-testing/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
@@ -1245,7 +1245,7 @@ Copy the complete skills/systematic-debugging and skills/verification-before-com
 ```
 
 ## What is included here
-Status: snapshot-and-guide. 7 upstream files in the scoped snapshot. Authored source is beside this guide when available. A snapshot is not a claim that local dependencies are installed.
+Pinned-source intake: 9 selected upstream files are fetched by prepare_library.py into library/entries/39-superpowers-debugging-and-verification/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 
 
