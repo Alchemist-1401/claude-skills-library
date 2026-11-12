@@ -1,6 +1,6 @@
 # Your Claude skills library
 
-One private home for 45 curated skill entries, individual usage guides and eight separate project references. Some entries contain several skills. Adding a skill here does not install or run it on your device.
+One private home for 44 curated skill entries, individual usage guides and eight separate project references. Some entries contain several skills. Adding a skill here does not install or run it on your device.
 
 ## Start with Claude
 
@@ -21,7 +21,7 @@ Preparation downloads reference files. It does not execute upstream scripts, ins
 
 ## Repository layout
 
-- `guides/` - 45 individually readable usage files: purpose, free scope, dependencies, source, setup notes and pinned revision.
+- `guides/` - 44 individually readable usage files: purpose, free scope, dependencies, source, setup notes and pinned revision.
 - `CATALOG.md` - the same usage material together for easy reading.
 - `CLAUDE.md` - a short entry point.
 - `projects/` - eight separate copy-ready project references, not installable skills.
