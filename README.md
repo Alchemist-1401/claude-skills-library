@@ -1,6 +1,6 @@
 # Your Claude skills library
 
-One private home for 45 curated skill entries, individual usage guides and eight separate project references. Some entries contain several skills. Adding a skill here does not install or run it on your device.
+One public home for 46 curated skill entries, individual usage guides and eight separate project references. Some entries contain several skills. Adding a skill here does not install or run it on your device.
 
 ## Start with Claude
 
@@ -8,7 +8,7 @@ Give Claude this repository link and say:
 
 > Read README.md, CLAUDE.md and CATALOG.md. Use the individual guides and the reviewed source manifest. For local intake, prepare the library in one new folder. For my task, select only the relevant skill. Keep Konsiar, Velocitas, outreach and personal work separate.
 
-Claude needs authenticated access to this private repository. A link alone does not grant access. Use Claude's GitHub connection where supported, or an authenticated local clone with Claude Code. Never make the repository public or paste credentials into a prompt.
+This repository is public by the owner's choice, confirmed 12 November 2026. A supported GitHub connection or local clone can give Claude access to its files; a link alone does not install or activate skills. Never paste credentials into a prompt. Public visibility does not change third-party license limits, including the EffectCraft adaptation's noncommercial redistribution terms.
 
 ## One-folder intake
 
@@ -21,7 +21,7 @@ Preparation downloads reference files. It does not execute upstream scripts, ins
 
 ## Repository layout
 
-- `guides/` - 45 individually readable usage files: purpose, free scope, dependencies, source, setup notes and pinned revision.
+- `guides/` - 46 individually readable usage files: purpose, free scope, dependencies, source, setup notes and pinned revision.
 - `CATALOG.md` - the same usage material together for easy reading.
 - `CLAUDE.md` - a short entry point.
 - `projects/` - eight separate copy-ready project references, not installable skills.
@@ -47,6 +47,6 @@ For updates, keep your existing working copy and prepare a fresh destination, th
 
 ## New additions
 
-New skills shared by the owner go into this same private repository after review: deduplicate by source/skill name, add usage instructions, preserve source/license/dependencies, and update the catalog and manifest. Adding is not permission to run an installer or change unrelated projects.
+New skills shared by the owner go into this same repository after review: deduplicate by source/skill name, add usage instructions, preserve source/license/dependencies, and update the catalog and manifest. Adding is not permission to run an installer or change unrelated projects.
 
-Checked 11 November 2026. Existing Claude access/allowance is separate from free skill licensing. Nothing here claims current installation or automatic activation from a link.
+Checked 12 November 2026. Existing Claude access/allowance is separate from free skill licensing. Nothing here claims current installation or automatic activation from a link.
