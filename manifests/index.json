@@ -16,7 +16,8 @@
     "manifests/sources-13.json",
     "manifests/sources-14.json",
     "manifests/sources-15.json",
-    "manifests/sources-16.json"
+    "manifests/sources-16.json",
+    "manifests/sources-17.json"
   ],
   "own_files": [
     {
@@ -274,6 +275,10 @@
     {
       "path": "authored/effectcraft-motion-films/SKILL.md",
       "sha256": "f2aa5f9dfb89121906e7a2adb2442e525568c2d1c30b131f8296a29e109dfba4"
+    },
+    {
+      "path": "guides/46-untangle-codebase.md",
+      "sha256": "6357239f7425f757f8368b41b21c5be01417de943facc506af5e6e66f755281e"
     }
   ]
 }
