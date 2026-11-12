@@ -252,19 +252,19 @@
     },
     {
       "path": "authored/konsiar-van-westendorp-pricing/SKILL.md",
-      "sha256": "e4a93a234cebfd85796ec683ce43e413f5dd2a56d2705d4fd69bf4855a3a44c8"
+      "sha256": "1a7183411a960cf88c8d5cb5a04b75c3cdd22ebfee9a0365fe39dcd4d0320b12"
     },
     {
       "path": "authored/konsiar-van-westendorp-pricing/SYNTHETIC_example_responses.csv",
-      "sha256": "874f680ee44a863cae69b5c5c14a830b0b9280ffe9c5caabdc89e2fddfa9577c"
+      "sha256": "79495a427253b47ed82d65c9aafe0fbe0c94e3f65ce1a82e77f1e30296833674"
     },
     {
       "path": "authored/konsiar-van-westendorp-pricing/survey-template.md",
-      "sha256": "a059121e5bd5c7c960866f66acdf14880b5e34f594df26fae7e287d56b477f2e"
+      "sha256": "5b065965f4c81b844ccb45954f32bcbd260880d85f6376e35cef5f229038b6aa"
     },
     {
       "path": "authored/konsiar-van-westendorp-pricing/vw_analysis.py",
-      "sha256": "a3bfe64d5e7f589fc402f090877b4e09bf3858907a069b2de606bd53bc799aad"
+      "sha256": "ac99d46f42256fc30728c0f0cc84ab1c398498d3cfbd5835b3cbed014f96bc8a"
     }
   ]
 }
