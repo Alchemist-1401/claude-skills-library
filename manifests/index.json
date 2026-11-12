@@ -15,7 +15,8 @@
     "manifests/sources-12.json",
     "manifests/sources-13.json",
     "manifests/sources-14.json",
-    "manifests/sources-15.json"
+    "manifests/sources-15.json",
+    "manifests/sources-16.json"
   ],
   "own_files": [
     {
@@ -265,6 +266,14 @@
     {
       "path": "authored/konsiar-van-westendorp-pricing/vw_analysis.py",
       "sha256": "ac99d46f42256fc30728c0f0cc84ab1c398498d3cfbd5835b3cbed014f96bc8a"
+    },
+    {
+      "path": "guides/45-effectcraft-motion-films.md",
+      "sha256": "0714b569980654676088c4b5ca5174aac9774f2dbd07de6a5b6c856a14af3673"
+    },
+    {
+      "path": "authored/effectcraft-motion-films/SKILL.md",
+      "sha256": "f2aa5f9dfb89121906e7a2adb2442e525568c2d1c30b131f8296a29e109dfba4"
     }
   ]
 }
