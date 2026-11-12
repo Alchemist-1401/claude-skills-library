@@ -245,6 +245,26 @@
     {
       "path": "references/tools/seo-mcp-tools.md",
       "sha256": "37f626137af2b88f628472e479f5cec517d59167b5ba052a63c815de565cda50"
+    },
+    {
+      "path": "guides/44-konsiar-van-westendorp-pricing.md",
+      "sha256": "4473ddbc7b8eea8221f14cc3abad66cb74e7be4d3a1f8359eebffa9acc877633"
+    },
+    {
+      "path": "authored/konsiar-van-westendorp-pricing/SKILL.md",
+      "sha256": "e4a93a234cebfd85796ec683ce43e413f5dd2a56d2705d4fd69bf4855a3a44c8"
+    },
+    {
+      "path": "authored/konsiar-van-westendorp-pricing/SYNTHETIC_example_responses.csv",
+      "sha256": "874f680ee44a863cae69b5c5c14a830b0b9280ffe9c5caabdc89e2fddfa9577c"
+    },
+    {
+      "path": "authored/konsiar-van-westendorp-pricing/survey-template.md",
+      "sha256": "a059121e5bd5c7c960866f66acdf14880b5e34f594df26fae7e287d56b477f2e"
+    },
+    {
+      "path": "authored/konsiar-van-westendorp-pricing/vw_analysis.py",
+      "sha256": "a3bfe64d5e7f589fc402f090877b4e09bf3858907a069b2de606bd53bc799aad"
     }
   ]
 }
