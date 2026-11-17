@@ -17,7 +17,8 @@
     "manifests/sources-14.json",
     "manifests/sources-15.json",
     "manifests/sources-16.json",
-    "manifests/sources-17.json"
+    "manifests/sources-17.json",
+    "manifests/sources-18.json"
   ],
   "own_files": [
     {
@@ -279,6 +280,58 @@
     {
       "path": "guides/46-untangle-codebase.md",
       "sha256": "6357239f7425f757f8368b41b21c5be01417de943facc506af5e6e66f755281e"
+    },
+    {
+      "path": "guides/47-effectcraft-explainer-studio.md",
+      "sha256": "5efa6624dbe818fcbfcedd90e730b7f6d62da2b2f416a7caa5e14a44a48b1c53"
+    },
+    {
+      "path": "authored/effectcraft-explainer-studio/LICENSE",
+      "sha256": "4d31554e7ffa1a7427124ff7a4debce15a5226777ed446ca06a2aad4d2a7260c"
+    },
+    {
+      "path": "authored/effectcraft-explainer-studio/SKILL.md",
+      "sha256": "2328ffe7f4f44104ccb0a665e0f2867f94f602231674aa9f54b3bde042c5f56d"
+    },
+    {
+      "path": "authored/effectcraft-explainer-studio/assets/world_110m.json",
+      "sha256": "9a4facc3e9a856e06c42060456e38a1e900d274cd5ebd52bfeaef8031b28661c"
+    },
+    {
+      "path": "authored/effectcraft-explainer-studio/examples/data-demo.spec.json",
+      "sha256": "0531d812e304857860027be26421d985f4c5aca33ef6b166bf026ad044f033dc"
+    },
+    {
+      "path": "authored/effectcraft-explainer-studio/references/effectcraft-notes.md",
+      "sha256": "0a50a14e194ae18089dcd20cd6e4fd9b49fe2a5f08b90bf6dccafe9a2462610a"
+    },
+    {
+      "path": "authored/effectcraft-explainer-studio/references/qa.md",
+      "sha256": "d8d737554685fcf7032cfcb463227f092ceaba5b7e36b39bb5ae361105990931"
+    },
+    {
+      "path": "authored/effectcraft-explainer-studio/references/spec.md",
+      "sha256": "04b412c87055efd77d08e18e8646a020427e0e88682f6031bf12e08633f5543a"
+    },
+    {
+      "path": "authored/effectcraft-explainer-studio/references/storytelling.md",
+      "sha256": "410136720b07c1a682734cea39fbb1b4a48080d5d4163dfe1a9f7a155f93b473"
+    },
+    {
+      "path": "authored/effectcraft-explainer-studio/references/voice.md",
+      "sha256": "83cc83b8fdbc034931607b6fa02ae469fa7f4d332e7c8b9a3763f32740a80480"
+    },
+    {
+      "path": "authored/effectcraft-explainer-studio/scripts/ecx.py",
+      "sha256": "bf6b10ac23600b0259003ec65cbe0919c39a88078f117b8dccab71957869a432"
+    },
+    {
+      "path": "authored/effectcraft-explainer-studio/templates/starter.spec.json",
+      "sha256": "fe70b60797741a4a067fcc1ef21e8c05287d08331c275abfa3f079402996af1c"
+    },
+    {
+      "path": "packages/effectcraft-explainer-studio.zip",
+      "sha256": "24a5600ea64425c96c260f71392aa8210e507a831a0fe80ac5743907f8e5ffbe"
     }
   ]
 }
