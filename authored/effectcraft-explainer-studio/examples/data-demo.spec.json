@@ -1,0 +1,218 @@
+{
+  "name": "data-demo-ILLUSTRATIVE",
+  "style": "ink",
+  "format": "both",
+  "captions": "tall",
+  "beats": [
+    {
+      "id": "hook",
+      "type": "hook",
+      "tag": "Demo",
+      "vo": "This is a layout demo with made up numbers.",
+      "data": {
+        "kicker": "Layout demo",
+        "headline": "Every chart type, *one* beat sheet",
+        "sub": "Numbers below are illustrative, not real"
+      },
+      "source": "none"
+    },
+    {
+      "id": "stat",
+      "type": "stat",
+      "tag": "Big number",
+      "source": "Illustrative demo data",
+      "vo": "One number, big, counting up.",
+      "data": {
+        "value": 87,
+        "suffix": "%",
+        "label": "of the demo audience loved the demo",
+        "context": "Made up for layout testing"
+      }
+    },
+    {
+      "id": "bars",
+      "type": "bars",
+      "tag": "Compare",
+      "title": "Bars grow, highest first",
+      "source": "Illustrative demo data",
+      "vo": "Bars draw on in order and the leader is highlighted.",
+      "data": {
+        "unit": "%",
+        "items": [
+          {
+            "label": "Alpha",
+            "value": 62
+          },
+          {
+            "label": "Beta",
+            "value": 48
+          },
+          {
+            "label": "Gamma",
+            "value": 31
+          },
+          {
+            "label": "Delta",
+            "value": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "line",
+      "type": "line",
+      "tag": "Trend",
+      "title": "A line that draws itself",
+      "source": "Illustrative demo data",
+      "vo": "A line draws across the grid and ends on a pulsing dot.",
+      "data": {
+        "unit": "",
+        "points": [
+          [
+            "2019",
+            10
+          ],
+          [
+            "2020",
+            14
+          ],
+          [
+            "2021",
+            13
+          ],
+          [
+            "2022",
+            22
+          ],
+          [
+            "2023",
+            31
+          ],
+          [
+            "2024",
+            44
+          ]
+        ],
+        "annotations": [
+          {
+            "at": 3,
+            "text": "Turning point"
+          }
+        ]
+      }
+    },
+    {
+      "id": "map",
+      "type": "map",
+      "tag": "Where",
+      "title": "Map with pins and a route",
+      "source": "Natural Earth (public domain) for shapes; points are illustrative",
+      "vo": "Countries light up, pins pulse, and a route draws between two places.",
+      "data": {
+        "highlight": [
+          "USA",
+          "CAN",
+          "MEX"
+        ],
+        "pins": [
+          {
+            "name": "a",
+            "lon": -87.6,
+            "lat": 41.9,
+            "label": "Chicago"
+          },
+          {
+            "name": "b",
+            "lon": -99.1,
+            "lat": 19.4,
+            "label": "Mexico City"
+          }
+        ],
+        "routes": [
+          {
+            "from": [
+              -87.6,
+              41.9
+            ],
+            "to": [
+              -99.1,
+              19.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "world",
+      "type": "map",
+      "tag": "World",
+      "title": "World view",
+      "source": "Natural Earth (public domain)",
+      "vo": "A whole-world map uses a different projection automatically.",
+      "data": {
+        "highlight": [
+          "BRA",
+          "IND",
+          "JPN"
+        ],
+        "pins": [
+          {
+            "name": "x",
+            "lon": 77.2,
+            "lat": 28.6,
+            "label": "Delhi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "time",
+      "type": "timeline",
+      "tag": "History",
+      "title": "Timeline",
+      "source": "Illustrative demo data",
+      "vo": "Events line up along a rule and appear in order.",
+      "data": {
+        "events": [
+          {
+            "when": "1990",
+            "text": "Something began"
+          },
+          {
+            "when": "2005",
+            "text": "It spread"
+          },
+          {
+            "when": "2015",
+            "text": "It peaked"
+          },
+          {
+            "when": "2025",
+            "text": "It changed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "quote",
+      "type": "quote",
+      "tag": "Voice",
+      "vo": "Quotes get a big serif treatment.",
+      "data": {
+        "text": "Clarity is the whole product.",
+        "who": "Placeholder Person, 2026"
+      },
+      "source": "Illustrative demo data"
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "tag": "End",
+      "vo": "And the outro lists every source you used.",
+      "data": {
+        "takeaway": "Every claim ships with a *receipt*.",
+        "cta": "Subscribe for more"
+      }
+    }
+  ]
+}
