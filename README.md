@@ -1,6 +1,6 @@
 # Your Claude skills library
 
-One public home for 46 curated skill entries, individual usage guides and eight separate project references. Some entries contain several skills. Adding a skill here does not install or run it on your device.
+One public home for 47 curated skill entries, individual usage guides and eight separate project references. Some entries contain several skills. Adding a skill here does not install or run it on your device.
 
 ## Start with Claude
 
@@ -21,12 +21,13 @@ Preparation downloads reference files. It does not execute upstream scripts, ins
 
 ## Repository layout
 
-- `guides/` - 46 individually readable usage files: purpose, free scope, dependencies, source, setup notes and pinned revision.
+- `guides/` - 47 individually readable usage files: purpose, free scope, dependencies, source, setup notes and pinned revision.
 - `CATALOG.md` - the same usage material together for easy reading.
 - `CLAUDE.md` - a short entry point.
 - `projects/` - eight separate copy-ready project references, not installable skills.
 - `references/tools/` - separate tool usage notes, including the two local MCP tools from the SEO reel. No servers are installed by intake.
-- `authored/` - the recovered authored skill texts; file markers inside the Konsiar text preserve its original folder layout.
+- `authored/` - the recovered authored skill texts and original authored skill packages; file markers inside the Konsiar text preserve its original folder layout.
+- `packages/` - byte-exact ZIP downloads of original authored skill packages, for one-file transfer. Not required for intake; the same files exist unpacked under `authored/`.
 - `manifests/` - the exact selected source paths, commits, file hashes and licenses/notices to retrieve. This is the source of truth for what preparation actually downloads.
 - `prepare_library.py` - local-only intake, standard library only.
 - `library/` - created locally after preparation, not a global skill installation.
@@ -49,4 +50,4 @@ For updates, keep your existing working copy and prepare a fresh destination, th
 
 New skills shared by the owner go into this same repository after review: deduplicate by source/skill name, add usage instructions, preserve source/license/dependencies, and update the catalog and manifest. Adding is not permission to run an installer or change unrelated projects.
 
-Checked 12 November 2026. Existing Claude access/allowance is separate from free skill licensing. Nothing here claims current installation or automatic activation from a link.
+Checked 16 November 2026. Existing Claude access/allowance is separate from free skill licensing. Nothing here claims current installation or automatic activation from a link.
