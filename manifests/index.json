@@ -295,11 +295,11 @@
     },
     {
       "path": "authored/effectcraft-explainer-studio/assets/world_110m.json",
-      "sha256": "9a4facc3e9a856e06c42060456e38a1e900d274cd5ebd52bfeaef8031b28661c"
+      "sha256": "26081d84e735742fa607268a73b256814e46a15d2214fe1b05b0428995a68a4b"
     },
     {
       "path": "authored/effectcraft-explainer-studio/examples/data-demo.spec.json",
-      "sha256": "0531d812e304857860027be26421d985f4c5aca33ef6b166bf026ad044f033dc"
+      "sha256": "1bd34fc0885212ce91b2489335af680049274b96a7b019c319d26ad77ffdf25c"
     },
     {
       "path": "authored/effectcraft-explainer-studio/references/effectcraft-notes.md",
@@ -327,7 +327,7 @@
     },
     {
       "path": "authored/effectcraft-explainer-studio/templates/starter.spec.json",
-      "sha256": "fe70b60797741a4a067fcc1ef21e8c05287d08331c275abfa3f079402996af1c"
+      "sha256": "ecae2686ec533aab6cbb9a36dfcb6024ec2bc4ee3be12ab383e618db29fb4652"
     },
     {
       "path": "packages/effectcraft-explainer-studio.zip",
