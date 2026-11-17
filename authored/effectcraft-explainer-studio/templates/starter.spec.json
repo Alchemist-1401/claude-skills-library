@@ -1,0 +1,125 @@
+{
+  "name": "how-a-touchscreen-works",
+  "style": "paper",
+  "format": "both",
+  "captions": "tall",
+  "voice": {
+    "engine": "auto"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "type": "hook",
+      "tag": "Explainer",
+      "vo": "Every day you tap glass over and over. How does a flat sheet know where your finger is?",
+      "data": {
+        "kicker": "How it works",
+        "headline": "How does glass feel *your finger*?",
+        "sub": "A short explainer"
+      },
+      "source": "none"
+    },
+    {
+      "id": "idea",
+      "type": "kinetic",
+      "tag": "The big idea",
+      "vo": "Your body conducts electricity. A phone screen keeps an electric field across its surface, and it notices when a finger disturbs that field.",
+      "data": {
+        "lines": [
+          "You are a *conductor*.",
+          "The screen keeps an *electric field* across its glass.",
+          "A touch *disturbs* it."
+        ]
+      },
+      "source": {
+        "label": "Wikipedia, Touchscreen (capacitive and resistive sections), simplified",
+        "url": "https://en.wikipedia.org/wiki/Touchscreen"
+      }
+    },
+    {
+      "id": "grid",
+      "type": "touchgrid",
+      "tag": "Inside the glass",
+      "title": "The sensing grid (simplified)",
+      "vo": "Under the glass is a conductive layer read through a grid of sensing lines. A finger distorts the field near its tip. The controller finds where the change is biggest.",
+      "data": {
+        "cols": 8,
+        "rows": 5,
+        "touch": [
+          4.8,
+          2.2
+        ],
+        "labels": [
+          "Sensing lines read the field across the glass",
+          "A finger distorts the field where it touches",
+          "The controller finds the biggest change"
+        ]
+      },
+      "source": {
+        "label": "Wikipedia, Touchscreen (capacitive and resistive sections), simplified",
+        "url": "https://en.wikipedia.org/wiki/Touchscreen"
+      }
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "tag": "Step by step",
+      "title": "From tap to location",
+      "vo": "First the screen holds a steady field. Second, your finger distorts it where you touch. Third, the controller compares the readings and picks the spot that changed most.",
+      "data": {
+        "steps": [
+          {
+            "title": "Field",
+            "text": "The screen holds a steady electric field"
+          },
+          {
+            "title": "Touch",
+            "text": "Your finger distorts it where you touch"
+          },
+          {
+            "title": "Locate",
+            "text": "The controller finds the biggest change"
+          }
+        ]
+      },
+      "source": {
+        "label": "Wikipedia, Touchscreen (capacitive and resistive sections), simplified",
+        "url": "https://en.wikipedia.org/wiki/Touchscreen"
+      }
+    },
+    {
+      "id": "versus",
+      "type": "compare",
+      "tag": "Two kinds",
+      "title": "Capacitive vs resistive",
+      "source": {
+        "label": "Wikipedia, Touchscreen (capacitive and resistive sections), simplified",
+        "url": "https://en.wikipedia.org/wiki/Touchscreen"
+      },
+      "vo": "Older resistive screens work when two layers are pressed together. Capacitive screens sense a finger's effect on an electric field instead.",
+      "data": {
+        "left": {
+          "label": "Capacitive",
+          "value": "Touch",
+          "note": "Senses a finger's effect on an electric field."
+        },
+        "right": {
+          "label": "Resistive",
+          "value": "Press",
+          "note": "Two layers must be pressed together."
+        },
+        "verdict": "Same goal, very different physics."
+      }
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "tag": "Takeaway",
+      "vo": "So the glass is not feeling you. It is measuring how you change its field.",
+      "data": {
+        "takeaway": "The glass isn't *feeling* you. It's *measuring* a change.",
+        "cta": "Follow for the next explainer"
+      }
+    }
+  ]
+}
