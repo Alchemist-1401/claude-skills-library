@@ -1,0 +1,9 @@
+MIT License. Copyright (c) 2026 the package author.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files, to deal in the Software without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies, subject to inclusion of this notice.
+The software is provided "as is", without warranty of any kind.
+
+assets/world_110m.json is derived from Natural Earth 1:110m admin-0 countries (public domain, naturalearthdata.com),
+rounded to 0.1 degree.
+EffectCraft is a separate project (Apache-2.0 per its GitHub page). Not included here.
