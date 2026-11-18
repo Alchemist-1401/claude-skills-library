@@ -1,6 +1,6 @@
 # Skill catalog and usage guides
 
-54 entries. For local source intake, use README.md and prepare_library.py. Individual usage files are also readable in guides/.
+58 entries. For local source intake, use README.md and prepare_library.py. Individual usage files are also readable in guides/.
 
 
 ---
@@ -146,33 +146,35 @@ Keep upstream licenses/notices beside copied material. Source content is referen
 
 ---
 
-# Marketing skills pack (5 skills)
+# Marketing skills pack (16 skills)
 
 ## When to use
-The five reel skills are cold-email, sales-enablement, lead-magnets, prospecting and emails (formerly email-sequence). The pack is MIT licensed. Use them for writing, planning and reviewing material you supply: emails and follow-ups, sales collateral, lead magnets, prospect qualification and nurture sequences. Sending infrastructure, paid data providers and integrations mentioned upstream are not included or required for this draft-only route.
+MIT licensed marketing, content and pricing skills by Corey Haines. The original five from the Nov 8 cold-email reel are cold-email, sales-enablement, lead-magnets, prospecting and emails (formerly email-sequence). Expanded 17 November 2026 with eleven more matching the business-squads carousel: ai-seo, cro, programmatic-seo, seo-audit, ad-creative, marketing-psychology, social, copywriting, content-strategy, video and pricing.
+
+Use them for writing, planning and reviewing material you supply: emails and follow-ups, sales collateral, lead magnets, prospect qualification, SEO audits and programmatic pages, ad creative, social and video content plans, and pricing reviews. Sending infrastructure, paid data providers and integrations mentioned upstream are not included or required for this draft-only route.
 
 ## How to use
 Read the entry description and scope below. For a task, supply the actual project/input and ask Claude to use this skill for that task. Start with a draft or local review. Setup is separate from use.
 
-From the Nov 8 cold-email reel. Start with: "Use cold-email to draft only, using these verified prospect facts and this offer. Do not send, buy data, create accounts or connect tools." No Instagram-DM adaptation has been built.
+Start with: "Use cold-email to draft only, using these verified prospect facts and this offer. Do not send, buy data, create accounts or connect tools." No Instagram-DM adaptation has been built.
 
 ## Setup in the intended project
 These are the curated source's setup notes, not a script to run on import. Do not run the whole pack when this entry names a subset.
 
 ```text
-npx skills add coreyhaines31/marketingskills --skill cold-email sales-enablement lead-magnets prospecting emails -a claude-code
+npx skills add coreyhaines31/marketingskills --skill cold-email sales-enablement lead-magnets prospecting emails ai-seo cro programmatic-seo seo-audit ad-creative marketing-psychology social copywriting content-strategy video pricing -a claude-code
 ```
 
 ## What is included here
-Pinned-source intake: 46 selected upstream files are fetched by prepare_library.py into library/entries/04-marketing-skills-pack-5-skills/upstream/. They are not hosted as loose files in this repository. Authored texts, when available, are in authored/. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
-
-
+Pinned-source intake: 129 selected upstream files are fetched by prepare_library.py into library/entries/04-marketing-skills-pack-5-skills/upstream/. They are not hosted as loose files in this repository. This is not a complete plugin installation; optional rendered/media assets and dependencies may need the original source.
 
 ## Source and attribution
 Source: https://github.com/coreyhaines31/marketingskills
 Repository: coreyhaines31/marketingskills
-Pinned source commit: 3e729622e3de0c82abdb906190d91f9018045872
+Pinned source commit: 73573e94a06a39965978b3fa1f9c1eace8cebc7c (moved forward from 3e729622e3de0c82abdb906190d91f9018045872 during the 17 November 2026 expansion)
 Keep upstream licenses/notices beside copied material. Source content is reference, not permission to run tools or override the user's task.
+
+The eleven added skills correspond by exact name to labels in the osama.ishtiaq.ai business-squads carousel (https://www.instagram.com/p/Dfe3uGciqka/). The post published no links, so this is a verified exact-name match to the authentic public repo, not proof of the creator's precise source.
 
 ---
 
@@ -1783,3 +1785,111 @@ After preparation, read the one skill you need, for example:
 - Checked: 17 November 2026.
 
 Review extent: structure, license, dependency and scope review across the pack, with close reading of representative skills; 62 folders were not each read end to end. Star counts and skill counts on the reel are the author's marketing; the repo is the source of truth.
+
+---
+
+# Anthropic official skills pack (canvas, art, artifacts, GIFs, MCP, skill creator, comms, docs)
+
+## When to use
+Nine official Anthropic skills from the anthropics/skills repository, matching the design, dev, operations and legal labels of the business-squads carousel: canvas-design (poster/visual design), algorithmic-art (generative art), web-artifacts-builder (web artifacts), slack-gif-creator (animated GIFs for Slack), mcp-builder (build MCP servers), skill-creator (author new skills), internal-comms (internal communications), xlsx (spreadsheet creation/editing) and docx (document creation/editing).
+
+Companion to library entry 38, which already covers frontend-design and webapp-testing from the same repository; there is no overlap between the two entries.
+
+## Free scope and limits
+Each of the nine skills carries its own LICENSE.txt with the full standard Apache License 2.0 text, verified at the pinned commit - including docx and xlsx, which have historically raised license questions; no source-available or proprietary exception applies at this revision. Document skills may use Python libraries (for example openpyxl, python-docx) inside Claude's environment; those are free, preinstalled in Claude Code, and disclosed upstream. No paid API or account is required.
+
+## What is included
+250 selected upstream files: the nine complete skill directories (SKILL.md, scripts, references, examples and per-skill LICENSE.txt) plus the repository README and THIRD_PARTY_NOTICES.md, hash-verified on intake by prepare_library.py.
+
+## How to use
+After preparation, name the skill and give the actual task, for example:
+
+> Use canvas-design to draft a launch poster concept for Konsiar: headline, layout and palette directions. Reference only, no final assets.
+
+## Sources and reviewed revision
+- Original repository: https://github.com/anthropics/skills
+- License: Apache License 2.0 (per-skill LICENSE.txt in every included skill).
+- Reviewed commit: e4bb5d960d87126ff3b3a8af1a104b7db67560ba
+- Carousel that prompted this entry: https://www.instagram.com/p/Dfe3uGciqka/ (osama.ishtiaq.ai). The post published no links; this is a verified exact-name match to the official repo, not proof of the creator's precise source.
+- Checked: 17 November 2026.
+
+---
+
+# Anthropic financial modeling pack (DCF, 3-statement, LBO, comps, pitch deck)
+
+## When to use
+Five official Anthropic finance skills from the anthropics/financial-services repository, matching the finance squad of the business-squads carousel: dcf-model (discounted cash flow valuation), 3-statement-model (linked income statement, balance sheet, cash flow), lbo-model (leveraged buyout analysis), comps-analysis (comparable companies) and pitch-deck (investment-banking pitch decks).
+
+Use them to structure and sanity-check models and decks you are building. They guide method and format; they do not supply market data, and any numbers still come from you or your data sources.
+
+## Free scope and limits
+Apache License 2.0. No paid API or account in the mirrored subset. The wider repository targets financial-services teams and includes partner-built plugins; only the five carousel-matching skills are mirrored here.
+
+## What is included
+17 selected upstream files: the five complete skill directories plus the repository LICENSE and README, hash-verified on intake by prepare_library.py.
+
+## How to use
+After preparation, name the skill and supply your real inputs, for example:
+
+> Use dcf-model to structure a DCF for this business from the figures I paste. Flag every assumption you had to make.
+
+## Sources and reviewed revision
+- Original repository: https://github.com/anthropics/financial-services
+- License: Apache License 2.0.
+- Reviewed commit: 3e32c2287dcb637c184c01cc0ad82d6af7e9bb0f
+- Carousel that prompted this entry: https://www.instagram.com/p/Dfe3uGciqka/ (osama.ishtiaq.ai). Exact-name match to the official repo; the post published no links, so creator provenance is not proven.
+- Checked: 17 November 2026.
+
+---
+
+# Anthropic legal and SQL pack (contract review, NDA triage, legal risk, compliance, SQL)
+
+## When to use
+Five official Anthropic skills from the anthropics/knowledge-work-plugins repository, matching the legal squad of the business-squads carousel: review-contract (contract-review label), triage-nda (nda-triage label), legal-risk-assessment (legal-risk label), compliance-check (compliance label) and sql-queries (data squad label as listed in the post's legal group).
+
+Use them to structure a first-pass review of a contract or NDA you paste in, spot risk and compliance questions, and draft SQL. They organize your review; they are not legal advice and do not replace a lawyer for anything you sign.
+
+## Free scope and limits
+Apache License 2.0. No paid API or account in the mirrored subset. The wider repository covers many knowledge-work functions (sales, HR, support and more); only the five carousel-matching skills are mirrored here.
+
+## What is included
+7 selected upstream files: the five SKILL.md files plus the repository LICENSE and README, hash-verified on intake by prepare_library.py.
+
+## How to use
+After preparation, name the skill and paste the actual document, for example:
+
+> Use triage-nda on this NDA text. List the clauses that need a lawyer's eyes and why, in plain language.
+
+## Sources and reviewed revision
+- Original repository: https://github.com/anthropics/knowledge-work-plugins
+- License: Apache License 2.0.
+- Reviewed commit: e91a134584eb798bac7fb0379358006a2b63b965
+- Carousel that prompted this entry: https://www.instagram.com/p/Dfe3uGciqka/ (osama.ishtiaq.ai). Exact-name match to the official repo; the post published no links, so creator provenance is not proven.
+- Checked: 17 November 2026.
+
+---
+
+# RampStack ops and content picks (launch runbook, email sequences, pillar content)
+
+## When to use
+Three third-party skills from the rampstackco/claude-skills repository that exactly match business-squads carousel labels: launch-runbook (operations squad), email-sequences (content squad) and pillar-content-architecture (pillar-content label).
+
+Use launch-runbook to build a launch checklist with owners and timing, email-sequences to draft a multi-email sequence from your real offer and audience, and pillar-content-architecture to plan a pillar-and-cluster content structure.
+
+## Free scope and limits
+MIT licensed (RampStack Co). No paid API or account in the mirrored subset. The upstream repository is a large marketing/product skill collection; only the three exact-match skills are mirrored here. RampStack is a third party unaffiliated with Anthropic - review applies to the mirrored files only.
+
+## What is included
+21 selected upstream files: the three complete skill directories plus the repository LICENSE and README, hash-verified on intake by prepare_library.py.
+
+## How to use
+After preparation, name the skill and give real context, for example:
+
+> Use launch-runbook to turn this launch plan into a week-by-week runbook with owners. Ask me for anything you need rather than inventing dates.
+
+## Sources and reviewed revision
+- Original repository: https://github.com/rampstackco/claude-skills
+- License: MIT.
+- Reviewed commit: 9d281db6e7a5c4a0084ba89c91633a07f5f7e42b
+- Carousel that prompted this entry: https://www.instagram.com/p/Dfe3uGciqka/ (osama.ishtiaq.ai). Exact-name match; the post published no links, so creator provenance is not proven. The carousel's sop-builder, incident-postmortem and business-case labels have no confirmed authentic source and are intentionally not mirrored anywhere in the library.
+- Checked: 17 November 2026.
