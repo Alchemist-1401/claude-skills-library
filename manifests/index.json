@@ -25,7 +25,11 @@
     "manifests/sources-22.json",
     "manifests/sources-23.json",
     "manifests/sources-24.json",
-    "manifests/sources-25.json"
+    "manifests/sources-25.json",
+    "manifests/sources-26.json",
+    "manifests/sources-27.json",
+    "manifests/sources-28.json",
+    "manifests/sources-29.json"
   ],
   "own_files": [
     {
@@ -42,7 +46,7 @@
     },
     {
       "path": "guides/04-marketing-skills-pack-5-skills.md",
-      "sha256": "ece6bc87f8564e47d02ccd57a633a0a73893931300a79a6070122e836da6fb59"
+      "sha256": "8a1292d49649b95809ce4c0a333632f7ea42acfdd971880c87d659d5fa354d0a"
     },
     {
       "path": "guides/05-instagram-agent-skill-13-skills.md",
@@ -367,6 +371,22 @@
     {
       "path": "guides/54-wondelai-book-frameworks-pack.md",
       "sha256": "460df2dae54937ecf8c30b5fa00c05d653290ce52594e4242092416ea16f9868"
+    },
+    {
+      "path": "guides/55-anthropic-official-skills-pack.md",
+      "sha256": "52e22dfa94b827935a042bf14c52a0676b3a37a2d5a88aa61677bb276708d06f"
+    },
+    {
+      "path": "guides/56-anthropic-financial-modeling-pack.md",
+      "sha256": "a8eeb5636066f49fbc09bafbfa14f98d760861989abaeddaa21e9f5c2d41b4e8"
+    },
+    {
+      "path": "guides/57-anthropic-legal-and-sql-pack.md",
+      "sha256": "466917da2c455ae6aba7bad547edaa5d96401b2646af3ff1f3861d2c8532c520"
+    },
+    {
+      "path": "guides/58-rampstack-ops-content-picks.md",
+      "sha256": "561ea6a5685e069b180f1a451a4cf8afb48a89b2133c2c6d3b5590c4d73f56a3"
     }
   ]
 }
