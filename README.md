@@ -1,6 +1,6 @@
 # Your Claude skills library
 
-One public home for 47 curated skill entries, individual usage guides and eight separate project references. Some entries contain several skills. Adding a skill here does not install or run it on your device.
+One public home for 54 curated skill entries, individual usage guides and eight separate project references. Some entries contain several skills. Adding a skill here does not install or run it on your device.
 
 ## Start with Claude
 
@@ -21,7 +21,7 @@ Preparation downloads reference files. It does not execute upstream scripts, ins
 
 ## Repository layout
 
-- `guides/` - 47 individually readable usage files: purpose, free scope, dependencies, source, setup notes and pinned revision.
+- `guides/` - 54 individually readable usage files: purpose, free scope, dependencies, source, setup notes and pinned revision.
 - `CATALOG.md` - the same usage material together for easy reading.
 - `CLAUDE.md` - a short entry point.
 - `projects/` - eight separate copy-ready project references, not installable skills.
@@ -50,4 +50,4 @@ For updates, keep your existing working copy and prepare a fresh destination, th
 
 New skills shared by the owner go into this same repository after review: deduplicate by source/skill name, add usage instructions, preserve source/license/dependencies, and update the catalog and manifest. Adding is not permission to run an installer or change unrelated projects.
 
-Checked 16 November 2026. Existing Claude access/allowance is separate from free skill licensing. Nothing here claims current installation or automatic activation from a link.
+Checked 17 November 2026. Existing Claude access/allowance is separate from free skill licensing. Nothing here claims current installation or automatic activation from a link.
