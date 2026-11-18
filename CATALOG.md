@@ -1,6 +1,6 @@
 # Skill catalog and usage guides
 
-47 entries. For local source intake, use README.md and prepare_library.py. Individual usage files are also readable in guides/.
+54 entries. For local source intake, use README.md and prepare_library.py. Individual usage files are also readable in guides/.
 
 
 ---
@@ -1553,3 +1553,233 @@ Original work for this library, MIT licensed (see the package LICENSE). Written 
 - Natural Earth map data: https://www.naturalearthdata.com
 - User-shared reel that prompted this skill: https://www.instagram.com/p/DfPQlVOgpH2/
 - Checked: 16 November 2026.
+
+---
+
+# unslop: remove the AI look from interfaces
+
+## When to use
+Turn a vibecoded, AI-looking screen into a designed interface with its own character. The skill finds the slop first (purple gradients, glows, emoji labels, shouty copy, uneven spacing), sets a direction from your product, then fixes the screen pass by pass like a designer doing a redline review. Works on dashboards, apps and landing pages in Next.js, React, Vue, Svelte, Tailwind or plain HTML/CSS, and even on a live site from a link.
+
+Use it on a throwaway branch or copy first: it edits real UI code, and taste is subjective, so review the diff before keeping changes.
+
+## Free scope and limits
+The skill itself is instructions plus small reference scripts; no paid API or service is required. Two optional extras have their own free dependencies: the story/render scripts (`scripts/story.mjs`) need Playwright and ffmpeg installed, and working on a live site from a link needs a way to read that site. The plugin install command upstream advertises (`claude plugin install unslop --marketplace heydamir/unslop`) is a reference option, not something this library runs.
+
+Upstream license is CC BY 4.0 (a documentation-style license, not a code license): copies and adaptations need attribution to Damir Sokolovsky (@heydamir). Preserve the LICENSE file with any copy.
+
+## How to use
+Read the prepared `skills/unslop/SKILL.md`, then point Claude at one screen or route, for example:
+
+> Use unslop on the Konsiar dashboard home screen only. First list the slop you found and the design direction you propose. Make the changes on a new branch, keep my copy and data untouched, and show me before/after screenshots. Do not install anything without asking.
+
+Keep it to one screen at a time; broad multi-page restyling in one pass is where quality drops.
+
+## Source intake and setup
+`prepare_library.py` retrieves the full `skills/unslop/` skill folder (SKILL.md, design-token and slop-sign references, three optional Node helper scripts) plus the upstream LICENSE and README from heydamir/unslop at the pinned revision, with checksum verification. To activate later in a project, copy only the reviewed `skills/unslop` folder into that project's `.claude/skills/`, keeping the LICENSE. Do not enable it globally across projects.
+
+## Sources and reviewed revision
+- Original repository: https://github.com/heydamir/unslop
+- License: CC BY 4.0, attribution required.
+- Reviewed commit: 620163eedb3529d9cd23a3994ed8d287d06f760d
+- User-shared post that prompted this entry: https://www.instagram.com/p/Dfw8XovDWZf/ (pathionai carousel; the actual link sat behind a comment gate, so the repository was resolved independently)
+- Checked: 17 November 2026.
+
+The review read the skill text and references; it did not run the restyle or the story renderer on any project. The author's before/after images are illustrative, not a promise for your UI.
+
+
+---
+
+# Diagram Design: editorial diagrams as self-contained HTML+SVG
+
+## When to use
+Turn a plain-words description into a clean editorial diagram: flows, architectures, timelines, comparisons, org charts, funnels and about 45 more types. Output is one self-contained HTML+SVG file per diagram, in your brand tokens, with no Mermaid default look. Good for Konsiar/Velocitas decks, docs and posts where a diagram should look designed, not generated.
+
+## Free scope and limits
+MIT licensed, no paid dependency. Diagrams render as HTML/SVG, so no diagram service or account is needed; export to PNG/PDF uses tools you already have (a browser). The skill ships with a default style (paper/ink/accent tokens) and deliberately pauses on first use to ask whether to customize from your website, an installed skill, a folder, pasted tokens, the default, or a saved profile. Answer that gate honestly per brand; Konsiar and Velocitas should get separate saved profiles, not one shared look.
+
+The upstream repo carries 239 example/template HTML files under `assets/` (about 5 MB). Those are NOT mirrored in this library's intake: the skill core (SKILL.md, 69 reference files, 8 helper scripts) plus LICENSE and README are pinned. If a workflow needs the example gallery or the terminal-chrome template, fetch it from the pinned upstream revision under the same MIT license.
+
+## How to use
+Read the prepared `skills/diagram-design/SKILL.md`, then ask for one diagram at a time:
+
+> Use diagram-design for a 5-step onboarding flow diagram for Konsiar, vertical, for a slide. Load the Konsiar brand profile (or ask me for tokens if none exists). Give me the HTML file and a rendered screenshot to check. One diagram; do not batch a whole deck.
+
+Check the rendered output visually before shipping: text overflow and cramped nodes are the common failure, and the skill's own QA references cover fixes.
+
+## Source intake and setup
+`prepare_library.py` retrieves `skills/diagram-design/` minus the bulky `assets/` gallery, plus LICENSE and README, from cathrynlavery/diagram-design at the pinned revision, with checksum verification. To activate later, copy the reviewed skill folder into the project's `.claude/skills/`. The repo also advertises plugin manifests for several agents (Codex, Copilot, Cursor and others); those are reference options, not installed by intake.
+
+## Sources and reviewed revision
+- Original repository: https://github.com/cathrynlavery/diagram-design
+- License: MIT.
+- Reviewed commit: f6db0decea96de66b901331a0f79a8d4b147ebae
+- User-shared post that prompted this entry: https://www.instagram.com/p/Dfw8XovDWZf/
+- Checked: 17 November 2026.
+
+The review read the skill and reference structure; it did not render every diagram type. Diagram quality claims (45+ types, no-shadow style) are the upstream design, verified only for the reviewed samples.
+
+
+---
+
+# Humanizer: strip AI-writing tells from text
+
+## When to use
+Rewrite AI-drafted text so it reads like a person wrote it, without changing what it says. The skill is built on Wikipedia's "Signs of AI writing" guide that Wikipedia editors use to catch generated text: inflated vocabulary, filler transitions, rule-of-three padding, em-dash habits, self-description, and the rest. Use on outreach drafts, posts, docs and captions before anything goes out under your name.
+
+## Free scope and limits
+MIT licensed, pure instruction skill, no API keys, no service, nothing to install. The one bundled script (`scripts/validate-package.py`) only validates the skill's own packaging; it is not part of normal use.
+
+This edits voice, not facts. It does not verify claims, and running text through it is not a substitute for reading the result yourself, especially for anything sent as you. It also cannot guarantee any third-party "AI detector" outcome; detectors are unreliable in both directions.
+
+## How to use
+Read the prepared `SKILL.md`, then hand Claude the draft:
+
+> Use humanizer on this outreach email. Keep every fact, name and price exactly as is, keep it short, and do not add claims. Show me the rewrite next to the original before I use it.
+
+Pairs naturally with the library's writing-style references; it does not replace your approved outreach structure or sending permissions.
+
+## Source intake and setup
+`prepare_library.py` retrieves SKILL.md, LICENSE, README.md and the packaging validator script from blader/humanizer at the pinned revision, with checksum verification. To activate later, copy the reviewed files as a skill folder into the project's `.claude/skills/`.
+
+## Sources and reviewed revision
+- Original repository: https://github.com/blader/humanizer
+- License: MIT.
+- Reviewed commit: b48c832f0f809c1b5658edbb838c2521b72f2413
+- Method reference named by the skill: Wikipedia, "Signs of AI writing"
+- User-shared post that prompted this entry: https://www.instagram.com/p/Dfw8XovDWZf/
+- Checked: 17 November 2026.
+
+The review read the full skill text; no rewrite quality testing was performed against your own drafts.
+
+
+---
+
+# last30days: what people actually said this month
+
+## When to use
+Research what real people are saying about a topic across Reddit, Hacker News, YouTube, Polymarket, GitHub and the web over the last 30 days, with citations and engagement. Good for demand signals, content topics, and checking what a niche actually complains about before building for it.
+
+## Free scope and limits (read this part)
+MIT licensed. The engine runs locally (Python 3 and Node required) and has a keyless free floor: Hacker News (Algolia), Polymarket, Wikidata, Reddit's cookie-free path, and YouTube via a local yt-dlp install all work with no API key. The deeper sources are NOT free: TikTok/Instagram search and Reddit backfill go through the paid ScrapeCreators API (`SCRAPECREATORS_API_KEY`, spends credits), and X/Twitter needs its own access. The skill's onboarding may offer to set that key up; the free answer is to skip it and stay on the keyless floor. Do not buy or enter any API key without the owner's explicit approval.
+
+The 14 MB demo media folder (`assets/`) is not mirrored in intake; the engine, references and docs are. Tool installs the skill asks for (yt-dlp, optionally others) are ordinary free installs to approve case by case; nothing is installed by adding this entry.
+
+## How to use
+Read the prepared `skills/last30days/SKILL.md`, then ask for one bounded question:
+
+> Use last30days for "AI headshot tools complaints" on the free keyless sources only. No paid API keys, no X login. Give me the top recurring complaints with links to the actual threads, and mark which sources were unavailable without a key.
+
+The skill has a doctor/health-check command to report which sources currently work; run that before trusting an absence of results.
+
+## Source intake and setup
+`prepare_library.py` retrieves `skills/last30days/` (SKILL.md, engine scripts, references) except the demo media folder, plus LICENSE and README, from mvanhorn/last30days-skill at the pinned revision, with checksum verification. The engine scripts are hash-pinned as published upstream; they were read for scope and dependency review, not line-by-line audited, and not executed here. To activate later, copy the reviewed skill folder into the project's `.claude/skills/`.
+
+## Sources and reviewed revision
+- Original repository: https://github.com/mvanhorn/last30days-skill
+- License: MIT.
+- Reviewed commit: a854f3bcb2c4344d7498426d653378510f8b253a
+- User-shared post that prompted this entry: https://www.instagram.com/p/Dfw8XovDWZf/
+- Checked: 17 November 2026.
+
+The engine was not run during review; source availability changes over time, so treat the doctor output, not this guide, as the current truth at use time.
+
+
+---
+
+# Scrapling official skill: scraping that survives bot-blocks
+
+## When to use
+Extract data from websites that defeat simple fetches: anti-bot pages, JavaScript-rendered content, sessions, spiders and concurrent crawls, with adaptive parsing that keeps working when a site's markup shifts. This is the official agent skill published inside the Scrapling repository by its author.
+
+## Free scope and limits
+BSD-3-Clause licensed, and the library itself is free open source. The real dependency is a local install: `pip install "scrapling[all]"` plus its browser components, which the skill needs before anything runs. That install is a normal free setup step to approve case by case; nothing is installed by this entry. The skill's upstream zip packaged inside the repo is not mirrored; intake takes the unpacked skill folder.
+
+Scraping carries conduct limits that matter more than cost: respect each site's terms and robots rules, do not bypass logins or access controls, do not scrape personal data at scale, and keep request rates polite. The skill's own docs include a prompt-injection defense flag (`--ai-targeted`) for command-line scraping; keep it on, since scraped page text is untrusted input, not instructions.
+
+## How to use
+Read the prepared `agent-skill/Scrapling-Skill/SKILL.md`, then give one bounded target:
+
+> Use the Scrapling skill to pull the public pricing table from <site>. Check their robots.txt and terms first; if they disallow it, stop and tell me. One page type, no login areas, save results to a CSV.
+
+For Konsiar prospecting or competitor monitoring, prefer official APIs where they exist and treat scraping as the fallback with consent and rate limits, not the default engine.
+
+## Source intake and setup
+`prepare_library.py` retrieves the `agent-skill/Scrapling-Skill/` folder (SKILL.md, examples, fetching/parsing/spider references, LICENSE.txt), the agent-skill README and the repository LICENSE from D4Vinci/Scrapling at the pinned revision, with checksum verification. The `pip install` of the library itself happens only if and when you approve using the skill. To activate later, copy the reviewed skill folder into the project's `.claude/skills/`.
+
+## Sources and reviewed revision
+- Original repository: https://github.com/D4Vinci/Scrapling
+- Skill folder: https://github.com/D4Vinci/Scrapling/tree/main/agent-skill/Scrapling-Skill
+- License: BSD-3-Clause.
+- Reviewed commit: 2998c9ebba52ef6116f0a483c7d2f21908250024
+- User-shared post that prompted this entry: https://www.instagram.com/p/Dfw8XovDWZf/
+- Checked: 17 November 2026.
+
+The review read the skill and reference docs; it did not install the library or scrape any site.
+
+
+---
+
+# book-to-skill: turn a book into a skill Claude answers from
+
+## When to use
+Convert a book or long document (PDF, EPUB, DOCX, HTML, Markdown, plain text, RTF; MOBI/AZW via Calibre) into a structured skill: frameworks, mental models, principles, techniques and anti-patterns, with a glossary and cheatsheet, so Claude can answer and work from that material while you build. This matches the long-standing "talk to a book" interest: it produces a reusable skill rather than a one-off chat summary.
+
+## Free scope and limits
+MIT licensed, and conversion runs on your own machine using your existing Claude access; the skill itself is explicit that its cost is the model tokens for reading and writing, and it estimates and reports token counts rather than hardcoding prices. Local tooling: Python 3, with format parsers for each file type and Calibre only for MOBI/AZW; approve those free installs when they come up.
+
+Copyright is the real boundary: convert books and documents you own or have rights to, keep the generated skill private, and do not redistribute or publish a skill that reproduces a book's text. A skill that quotes large passages of a copyrighted book is a copy, not a summary.
+
+The repository also contains upstream tests, evals and developer docs; those are not mirrored. Intake selects SKILL.md, the `book_to_skill` engine package, the extraction script, the two skill-validation tools, LICENSE.md and README.md.
+
+## How to use
+Read the prepared `SKILL.md`, then:
+
+> Use book-to-skill on this PDF I own. Show me the token estimate and the chapter plan before converting, build the skill into a new folder only, and do not publish or share the result anywhere.
+
+Large books are processed in passes (REPL-style access for very big files), so expect the conversion to take a while and check the generated skill against a few questions you know the book answers.
+
+## Source intake and setup
+`prepare_library.py` retrieves SKILL.md, LICENSE.md, README.md, the `book_to_skill/` engine, `scripts/extract.py` and the validation tools from virgiliojr94/book-to-skill at the pinned revision, with checksum verification. The engine is hash-pinned as published upstream and was reviewed for scope and dependencies, not line-by-line audited, and not executed here. To activate later, copy the reviewed files into the project's skill location.
+
+## Sources and reviewed revision
+- Original repository: https://github.com/virgiliojr94/book-to-skill
+- License: MIT.
+- Reviewed commit: e7bb659d3261491c8b28793dcb9102fa64a46c22 (default branch: master)
+- User-shared post that prompted this entry: https://www.instagram.com/p/Dfw8XovDWZf/
+- Checked: 17 November 2026.
+
+No conversion was run during review; quality depends heavily on the source document, so validate the generated skill before relying on it.
+
+---
+
+# Wondel business and craft skills pack (book frameworks)
+
+## When to use
+A large free MIT pack of Claude skills distilled from bestselling business, marketing, UX and coding books, plus guided journeys that ask you questions step by step. Highlights matching what you saw in the reel: `hundred-million-offers` (scores your offer out of 10: 10x value, guarantee, bonuses, urgency), `mom-test` (customer interviews that get honest answers), `predictable-revenue` and cold-outreach material, `influence-psychology`, `negotiation`, and the `grow-business` guided journey. Also coding and design classics (clean-code, refactoring, design-everyday-things, refactoring-ui).
+
+Use single skills as needed; do not activate the whole pack at once. For Konsiar offers and outreach, `hundred-million-offers`, `mom-test` and `obviously-awesome` are the likely starting points.
+
+## Free scope and limits
+MIT licensed; no paid API, account or service in the pack. These are framework distillations: condensed method summaries written from the books, not the books' text. They teach the checklist, not the chapter. For real depth, the underlying books still apply (buy or borrow them); do not treat a skill's summary as the source.
+
+The skills run inside Claude Code or another skills-capable agent using your existing access, exactly as the reel's "catch" said. Any guarantee, deadline or bonus an offer skill helps you write still has to be TRUE before you publish it.
+
+## What is included
+Intake pins the complete unique top-level skill set: about 62 skill/journey folders with their SKILL.md and reference files, plus README, EXAMPLES, CLAUDE.md, docs and the MIT LICENSE, at the pinned revision. The `plugins/` directory and the per-agent mirror folders (`.agents/`, `.windsurf/` and similar) are duplicates and symlinks of the same skills and are not mirrored. Altogether 441 files, hash-verified on download by `prepare_library.py`.
+
+Overlap with existing library entries: theme overlap with #04 (marketing pack), #09 (founder pricing) and #41 (psychology of selling), but this pack is distinct and much broader. Where two entries cover the same method, prefer the more specific one for the task; no existing entry is replaced.
+
+## How to use
+After preparation, read the one skill you need, for example:
+
+> Read hundred-million-offers from the library, then score my Konsiar offer out of 10 with the 7-question check. Name every question I fail and the fix for each. Do not invent prices or guarantees; ask me for the real facts first.
+
+## Sources and reviewed revision
+- Original repository: https://github.com/wondelai/skills
+- License: MIT.
+- Reviewed commit: c5265583b1a9740f06831e1d3e89b35bba3eb430
+- User-shared reel that prompted this entry: https://www.instagram.com/reel/Df2v3HoAsgM/ (nocodealex; the repo link sat behind a comment gate and was resolved independently)
+- Checked: 17 November 2026.
+
+Review extent: structure, license, dependency and scope review across the pack, with close reading of representative skills; 62 folders were not each read end to end. Star counts and skill counts on the reel are the author's marketing; the repo is the source of truth.
