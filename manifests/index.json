@@ -18,7 +18,14 @@
     "manifests/sources-15.json",
     "manifests/sources-16.json",
     "manifests/sources-17.json",
-    "manifests/sources-18.json"
+    "manifests/sources-18.json",
+    "manifests/sources-19.json",
+    "manifests/sources-20.json",
+    "manifests/sources-21.json",
+    "manifests/sources-22.json",
+    "manifests/sources-23.json",
+    "manifests/sources-24.json",
+    "manifests/sources-25.json"
   ],
   "own_files": [
     {
@@ -332,6 +339,34 @@
     {
       "path": "packages/effectcraft-explainer-studio.zip",
       "sha256": "24a5600ea64425c96c260f71392aa8210e507a831a0fe80ac5743907f8e5ffbe"
+    },
+    {
+      "path": "guides/48-unslop.md",
+      "sha256": "9bf418759b06da970f2cba82e0a0b1e3f8f605391c4f0575d9ed794ba57a12af"
+    },
+    {
+      "path": "guides/49-diagram-design.md",
+      "sha256": "880ca46f996a61268d681b8c19b219dbbed19ac63195067e8f96af56a7a80ae3"
+    },
+    {
+      "path": "guides/50-humanizer.md",
+      "sha256": "5b61ac35152ddd4bc6b9990a83cb48e39d068618d6703bd9583d72b570ba9316"
+    },
+    {
+      "path": "guides/51-last30days-research.md",
+      "sha256": "51ac29e004f1632da200677d159ecf5ffb41a785b1626c4c609e9efd30cdf211"
+    },
+    {
+      "path": "guides/52-scrapling-official-skill.md",
+      "sha256": "1daf2b04817e8cec1ce2f362f9c154078687645b31741ead33dd3d79602917e7"
+    },
+    {
+      "path": "guides/53-book-to-skill.md",
+      "sha256": "a27436fbb24fd2279054dfc0431026cb15161d3d2b998ce068ee8b957c7fbaff"
+    },
+    {
+      "path": "guides/54-wondelai-book-frameworks-pack.md",
+      "sha256": "460df2dae54937ecf8c30b5fa00c05d653290ce52594e4242092416ea16f9868"
     }
   ]
 }
