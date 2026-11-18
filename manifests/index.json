@@ -29,7 +29,8 @@
     "manifests/sources-26.json",
     "manifests/sources-27.json",
     "manifests/sources-28.json",
-    "manifests/sources-29.json"
+    "manifests/sources-29.json",
+    "manifests/sources-30.json"
   ],
   "own_files": [
     {
@@ -387,6 +388,10 @@
     {
       "path": "guides/58-rampstack-ops-content-picks.md",
       "sha256": "561ea6a5685e069b180f1a451a4cf8afb48a89b2133c2c6d3b5590c4d73f56a3"
+    },
+    {
+      "path": "guides/59-closer-sales-team-skills.md",
+      "sha256": "ef6b3ccbfc7d7e8f06e7afe30996563a56c3aa565163b3ee612385c05d0edf1e"
     }
   ]
 }
