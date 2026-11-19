@@ -1,6 +1,6 @@
 # Skill catalog and usage guides
 
-59 entries. For local source intake, use README.md and prepare_library.py. Individual usage files are also readable in guides/.
+61 entries. For local source intake, use README.md and prepare_library.py. Individual usage files are also readable in guides/.
 
 
 ---
@@ -1920,3 +1920,47 @@ After preparation, name the skill and give real context, for example:
 - Reviewed commit: 0b0107690e202010710a59eb7d0b47d331255e59
 - Reel that prompted this entry: https://www.instagram.com/reel/Df1nzcEn6PQ/ (nocodealex). The repo link sat behind a comment gate and was resolved independently; the 11-skill sales-team structure, live-call coach and draft-approval rule match the reel exactly, but creator provenance is not proven by a link.
 - Checked: 17 November 2026.
+
+---
+
+# Editorial texture backgrounds
+
+## When to use
+A design-technique skill for motion graphics and social video: replace full-bleed photo or flat solid backgrounds with a tinted paper-texture background to get the editorial, magazine-like look (the Vox style). Use when a scene or title card looks generic or flat. Tool-agnostic; applies in EffectCraft, After Effects or code rendering.
+
+## How to use
+Read `authored/editorial-texture-backgrounds/SKILL.md`, then describe the piece, for example:
+
+> Use editorial-texture-backgrounds for the title card of this reel: dark base, subtle newspaper texture tinted down, cut-out product shot, big serif headline. Keep the texture barely visible.
+
+The recipe: dark or neutral base, rotated paper/newspaper texture layer, tint effect mapping the texture's whites down toward the base color so contrast stays subtle, then cut-out imagery and editorial type on top. Free textures: TextureLab.
+
+## Setup and local intake
+A normal Markdown file in `authored/editorial-texture-backgrounds/SKILL.md`. No installer, account, dependency, API key or paid service. The standard `prepare_library.py` intake copies this guide and the authored skill into one new library folder with checksum verification; it does not activate anything.
+
+## Source and scope
+Authored for this library from the user-shared reel by @chrismoran__: https://www.instagram.com/reel/DY7TSLJAQef/ ("One of the easiest ways to make motion graphics feel more editorial"). Original restatement of a demonstrated technique; the video and its audio are not reproduced, and no license over the creator's content is asserted. The free-texture pointer (TextureLab) came from the reel's comments.
+
+Checked: 19 November 2026.
+
+---
+
+# EffectCraft storyboard motion graphics
+
+## When to use
+Turn a one-line animation idea plus brand assets (logo, colors, product shots) into a finished motion graphic through a two-gate workflow: Claude first returns a numbered storyboard, and builds only after you approve it. The build and render run in EffectCraft (free, open-source, local) instead of a code renderer or a paid video model. No credits, no upload.
+
+## How to use
+Read `authored/effectcraft-storyboard-motion-graphics/SKILL.md`, then give the idea and assets, for example:
+
+> Use effectcraft-storyboard-motion-graphics: a 10-second vertical logo sting for Konsiar, logo file attached, editorial style. Storyboard first; wait for my go.
+
+Gate 1 returns the numbered storyboard (beats, exact on-screen text, timing, frame size) and stops. Your "go" (or edits) triggers gate 2: build in EffectCraft, render locally (4K when the machine allows), report the output path. The storyboard gate is the point; the skill never skips from brief to render.
+
+## Setup and local intake
+A normal Markdown file in `authored/effectcraft-storyboard-motion-graphics/SKILL.md`. EffectCraft itself is a separate free app (see entries 13 and 45 for its MCP setup); the skill checks for it and stops rather than falling back to another pipeline if it is missing. No paid service, API key, video model or credits anywhere in the flow. The standard `prepare_library.py` intake copies this guide and the authored skill with checksum verification; it does not install EffectCraft or activate anything.
+
+## Source and scope
+Authored for this library from the user-shared reel by @mr.pynk: https://www.instagram.com/reel/Df2q9FtuPc1/ ("This Claude skill creates premium motion graphics... numbered storyboard... say go... rendered in 4K right on your machine. No video model, no credit costs."). The creator's own skill sat behind a comment gate and was not obtained; this is an original implementation of the publicly described workflow, redirected to EffectCraft per the library owner's standing instruction ("give it an effect craft twist", 19 November 2026). No license over the creator's content is asserted.
+
+Checked: 19 November 2026.
