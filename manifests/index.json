@@ -33,7 +33,8 @@
   "manifests/sources-30.json",
   "manifests/sources-31.json",
   "manifests/sources-32.json",
-  "manifests/sources-33.json"
+  "manifests/sources-33.json",
+  "manifests/sources-34.json"
  ],
  "own_files": [
   {
@@ -427,6 +428,18 @@
   {
    "path": "references/tools/paper-animators.md",
    "sha256": "e1594b21f2af039e0f343fa4bf594f2b060f78902b5698bbec21e4188767181b"
+  },
+  {
+   "path": "authored/text-fx-cookbook/SKILL.md",
+   "sha256": "58699d597ce5c5623a8504a6d57c823a6664db2ac186f6e0bbf38c6800d9ea0f"
+  },
+  {
+   "path": "guides/63-text-fx-cookbook.md",
+   "sha256": "8cb4cd469b4d121a9b5a2e86f6131eaa9995ed07cee811d0de5537b38742d33d"
+  },
+  {
+   "path": "manifests/sources-34.json",
+   "sha256": "fb466fb316fbcde896d2da8beaae5b7df7466efbc9674fe17b8137a79926a2c4"
   }
  ]
 }
