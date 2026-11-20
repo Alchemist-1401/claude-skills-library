@@ -1,415 +1,428 @@
 {
-  "format": 2,
-  "parts": [
-    "manifests/sources-01.json",
-    "manifests/sources-02.json",
-    "manifests/sources-03.json",
-    "manifests/sources-04.json",
-    "manifests/sources-05.json",
-    "manifests/sources-06.json",
-    "manifests/sources-07.json",
-    "manifests/sources-08.json",
-    "manifests/sources-09.json",
-    "manifests/sources-10.json",
-    "manifests/sources-11.json",
-    "manifests/sources-12.json",
-    "manifests/sources-13.json",
-    "manifests/sources-14.json",
-    "manifests/sources-15.json",
-    "manifests/sources-16.json",
-    "manifests/sources-17.json",
-    "manifests/sources-18.json",
-    "manifests/sources-19.json",
-    "manifests/sources-20.json",
-    "manifests/sources-21.json",
-    "manifests/sources-22.json",
-    "manifests/sources-23.json",
-    "manifests/sources-24.json",
-    "manifests/sources-25.json",
-    "manifests/sources-26.json",
-    "manifests/sources-27.json",
-    "manifests/sources-28.json",
-    "manifests/sources-29.json",
-    "manifests/sources-30.json",
-    "manifests/sources-31.json",
-    "manifests/sources-32.json"
-  ],
-  "own_files": [
-    {
-      "path": "guides/01-taste-skill.md",
-      "sha256": "4c3a6929b1ffa299564b32b81fb227d2a59b3f5e9f0cd25394a39acb85f5225d"
-    },
-    {
-      "path": "guides/02-motionsites-web-builder.md",
-      "sha256": "483972399fd35ba9ec822cd53cc4bb7ab473ab00809f2438ffe381aba9ec9fbf"
-    },
-    {
-      "path": "guides/03-ui-ux-pro-max.md",
-      "sha256": "40ef1f32619efc4399868ccb43d946b85c4dff0277435d81216275ffa942f503"
-    },
-    {
-      "path": "guides/04-marketing-skills-pack-5-skills.md",
-      "sha256": "8a1292d49649b95809ce4c0a333632f7ea42acfdd971880c87d659d5fa354d0a"
-    },
-    {
-      "path": "guides/05-instagram-agent-skill-13-skills.md",
-      "sha256": "b1a226760147c6c58a8e4a2bd3a2f1c1cd8f8279dfaeec606afcfc98f4a0dc32"
-    },
-    {
-      "path": "guides/06-logo-design-skill.md",
-      "sha256": "364b0b9f54dd5077b478d254eda9ec3b4d34f521f57c0184860d334cd08da624"
-    },
-    {
-      "path": "guides/07-ponytail.md",
-      "sha256": "98e4db7e289564136096981e059f67d38d846b29ec6cc170871c3c5d187ed698"
-    },
-    {
-      "path": "guides/08-i-have-adhd.md",
-      "sha256": "d1d3f5165706e65c25758d641666351afc611de27e970d72f03e21044f087d58"
-    },
-    {
-      "path": "guides/09-founder-pricing-strategy.md",
-      "sha256": "e24cdebc57d5bde026299597f626f31663f54b878e3eb1b481999d3a6b36d794"
-    },
-    {
-      "path": "guides/10-caveman-the-instruction-only-skill.md",
-      "sha256": "08a31c37ddf21e06796beb87699fb940e8605ec90d81ac59626b1dceff93df32"
-    },
-    {
-      "path": "guides/11-apple-design.md",
-      "sha256": "1b5120db3e34b1768911897f62f1a16d8a697a07b1b1adaac50fdcefebc6d276"
-    },
-    {
-      "path": "guides/12-lottiefiles-motion-design.md",
-      "sha256": "b4f47ca0292f004369f520399d4d548c6fc2db9305514132afb0b03fcc925da8"
-    },
-    {
-      "path": "guides/13-artcraft-controls-effectcraft-photocraft-designcraft.md",
-      "sha256": "735238dfe7427027a0589490e5fdfd3398abcedeae47ebc2a930825e8ca3a596"
-    },
-    {
-      "path": "guides/14-bang-motion.md",
-      "sha256": "c113e3bcc10b5207597188e4fa3d89a1befe8871c1ccbd7a19f603a7a73d3e56"
-    },
-    {
-      "path": "guides/15-charlie-hills-motion-graphics-skills.md",
-      "sha256": "23174c189a706672e8c1eda2a823e10c7d8211d0bf4daeebb1fb1605c1cd42bd"
-    },
-    {
-      "path": "guides/16-claude-motion-motion-design.md",
-      "sha256": "17e52a31a66c2ad2bc8d59b67ed8f9709baaaf14f39ac4a6d998a09905262e3d"
-    },
-    {
-      "path": "guides/17-lobzyjay-motion-direction-and-critique.md",
-      "sha256": "86c11290ac49b455d7ddb772e071da3fb1f1e6485096d32774a95b1a68ca2aef"
-    },
-    {
-      "path": "guides/18-remotion-best-practices.md",
-      "sha256": "bb129984bda9000e821f2de00e3ab4e05be329c1c6e3b76ec0282094c0b5ecad"
-    },
-    {
-      "path": "guides/19-real-sfx.md",
-      "sha256": "24d06af1998fe50d9bdd4b4fa53b2386411a8c0d4be6282de1a8ca7192fc23e4"
-    },
-    {
-      "path": "guides/20-earshot-audio-review-and-real-sound-skills.md",
-      "sha256": "978516b23c7f58d755081b76f299e92dae75d72596f27a6b113d9763d1f841d0"
-    },
-    {
-      "path": "guides/21-claude-watch-no-whisper-mode.md",
-      "sha256": "3021cfc7061b3a910472c046166f64259fa082fea3e4cc8ce3e0cc89ed877db2"
-    },
-    {
-      "path": "guides/22-brag.md",
-      "sha256": "9394f12edaf01441152d51e91e5e52d763e7d78b8dc5fd3924d738d73828b8ab"
-    },
-    {
-      "path": "guides/23-agent-reach-public-reading-scope.md",
-      "sha256": "df4a50130849c6a60e00b3953646e2034229d0e822dc2eb9350b8e1944ed83e4"
-    },
-    {
-      "path": "guides/24-lisaan-al-dawat-companion.md",
-      "sha256": "e5b342a9c15fa97cce7f3bedcf3ee6cb2423b2b72f1450f8d16f36aadd78a3f8"
-    },
-    {
-      "path": "guides/25-konsiar-motion-reels-v2.md",
-      "sha256": "3d4895bc60caba66356b7aaec34cb9897d17b25e4f4c7cfe008c28ff12e8d67e"
-    },
-    {
-      "path": "guides/26-rea-reverse-engineer-anything.md",
-      "sha256": "b60bd2a3d626223083e02ffb959191ee78a94fb8f4087b0678884f78a7ad4917"
-    },
-    {
-      "path": "guides/27-velocitas-triple-hook-original-adaptation.md",
-      "sha256": "5de3ff99047b55639061499f5b3158f09b562192f171ebb18fc7dc3059774ed6"
-    },
-    {
-      "path": "guides/28-content-principles-by-remy-gaskell.md",
-      "sha256": "bfa257cf9928428c4be0ab1eb7bba44544d496fbe3c0f7665fe49fafc31ceea6"
-    },
-    {
-      "path": "guides/29-cloudflare-security-audit.md",
-      "sha256": "3fe8de92d70f0dcbd31d0e05876c738ea6a2d498e32d160e966b3cb42747261a"
-    },
-    {
-      "path": "guides/30-matt-pocock-reviewed-engineering-skills.md",
-      "sha256": "228f02213c9faa8b726d634e1a06719cb1d12e8c52d8b115c3cd49606ff8a27a"
-    },
-    {
-      "path": "guides/31-impeccable.md",
-      "sha256": "33e9a8cbcc0ed19b5100766ae0c774bee24b212aee0cbeb5f6494b9e5b9dc140"
-    },
-    {
-      "path": "guides/32-everything-claude-code-coding-standards-only.md",
-      "sha256": "86a02e8a0a8022ff075f2503c3d7da5e9cf7028895177349770eb0e75463a08e"
-    },
-    {
-      "path": "guides/33-anatomy.md",
-      "sha256": "a761b618a5bba38a5a1afb6ba48de048da78f07efa42c955e05ee3b73d0c8c64"
-    },
-    {
-      "path": "guides/34-hallmark.md",
-      "sha256": "e65655e3db20d0f86d5b44857efd06906a4a8fd0c435c7f08e06abbea52e1c2c"
-    },
-    {
-      "path": "guides/35-addy-osmani-source-driven-development.md",
-      "sha256": "aa0e2f8ce113c97f983a28aa80964d567b00e2d14122f96bfeb0b4cdcfcd969c"
-    },
-    {
-      "path": "guides/36-graphify-local-code-only-skill.md",
-      "sha256": "033f2ebdb4f4d461266da4e26c1cc2b463c5cf69ec060a629650c6365c356310"
-    },
-    {
-      "path": "guides/37-karpathy-inspired-coding-guidelines.md",
-      "sha256": "776ff8a975a0af5eec0738a88233a3e31db2093ce24d3603f75eda2b4ecf2b85"
-    },
-    {
-      "path": "guides/38-anthropic-frontend-design-and-webapp-testing.md",
-      "sha256": "98612025bb5e6405ce5a19a4efca368adf8ffae0d985a493b0548ba74edf9116"
-    },
-    {
-      "path": "guides/39-superpowers-debugging-and-verification.md",
-      "sha256": "91356f52976668cad9ac93de286e3daac7c361bb8a619ae79aeb5bf3b4021251"
-    },
-    {
-      "path": "authored/content-message-audit.txt",
-      "sha256": "3867bb18c29bda92b3708c1136e589aa55ec8efc5004f92b7705e7cadada11b6"
-    },
-    {
-      "path": "authored/konsiar-v2-original.txt",
-      "sha256": "29e1a34f2ff825a6d46d2021db3e7fe8482f64231407aaca9998bc7e5949b283"
-    },
-    {
-      "path": "authored/lisaan-skill-original.txt",
-      "sha256": "ac128ad1a6ad250f67d7fa76ef5512a02848bcc11d56eb857e144261f6d0a217"
-    },
-    {
-      "path": "authored/velocitas-triple-hook.txt",
-      "sha256": "3b3153783eb03e6492485cd7ebf35e82db9a7178bca7b43161163935f2eb3136"
-    },
-    {
-      "path": "projects/business-packs/agency-framework.md",
-      "sha256": "78a627fa83230a7b2335a9e3904de0e70a605386b290c35e1e51beb3a70f2e09"
-    },
-    {
-      "path": "projects/business-packs/onboarding.md",
-      "sha256": "9b3b078cab8b504949e4cb23b7be1194c1620e3a7fefc69e5964de04d3e80181"
-    },
-    {
-      "path": "projects/konsiar/konsiar-design.md",
-      "sha256": "17321ce4ed66b4de2d7b7567fc4e3a72d514912084abf7309a208ea2a1c77ba4"
-    },
-    {
-      "path": "projects/konsiar/konsiar-engineering.md",
-      "sha256": "1b9194493d73c385c18a4a2dc1bfa00d4461dcbde20b806069f6614426c73d89"
-    },
-    {
-      "path": "projects/konsiar/konsiar-marketing.md",
-      "sha256": "3d4b2ca26369687b8beeb2fff5703452b0a3f26fb1ad9d6d846acdcfa598fd2f"
-    },
-    {
-      "path": "projects/outreach/outreach-reliability.md",
-      "sha256": "817b4c07871b80d8ac14e5c4b4ea845769c205ecf3dc23fa1e5d9395cebfd688"
-    },
-    {
-      "path": "projects/outreach/outreach-review.md",
-      "sha256": "107e050859fd1ab46c73611629783ac6eeb64676886672d7e76cd5519dfa1f0f"
-    },
-    {
-      "path": "projects/personal/personal-practice.md",
-      "sha256": "402917e4895794d1d2f1a2b205319184b596f444f2414f007216854aafb31342"
-    },
-    {
-      "path": "guides/40-vercel-find-skills.md",
-      "sha256": "e92cf8a2b5ff4ec5fda681c6afd6a8de2aa18f6b363602eeda4b38a51ccaa5b1"
-    },
-    {
-      "path": "guides/41-seven-psychology-rules-selling.md",
-      "sha256": "4c85b4b979cf1ee75815fbcdc2813d3ced3a8366e16820a058566ef189156dfd"
-    },
-    {
-      "path": "authored/seven-psychology-rules-selling/SKILL.md",
-      "sha256": "a8c7a031a0dd6fe27dcee31a1fa0fcb04fc94789b8e1b30cd980b7db006b1d83"
-    },
-    {
-      "path": "guides/42-claude-seo-free-core.md",
-      "sha256": "24f91f956b4235f7eea020e734c6bafe540f4576d13175cb128e073877e4b2b9"
-    },
-    {
-      "path": "guides/43-geo-seo-claude-audit.md",
-      "sha256": "743d2a73fffc5666d1901e685fb3374171df75e78a2f057d9025fbef44f49a40"
-    },
-    {
-      "path": "references/tools/seo-mcp-tools.md",
-      "sha256": "37f626137af2b88f628472e479f5cec517d59167b5ba052a63c815de565cda50"
-    },
-    {
-      "path": "guides/44-konsiar-van-westendorp-pricing.md",
-      "sha256": "4473ddbc7b8eea8221f14cc3abad66cb74e7be4d3a1f8359eebffa9acc877633"
-    },
-    {
-      "path": "authored/konsiar-van-westendorp-pricing/SKILL.md",
-      "sha256": "1a7183411a960cf88c8d5cb5a04b75c3cdd22ebfee9a0365fe39dcd4d0320b12"
-    },
-    {
-      "path": "authored/konsiar-van-westendorp-pricing/SYNTHETIC_example_responses.csv",
-      "sha256": "79495a427253b47ed82d65c9aafe0fbe0c94e3f65ce1a82e77f1e30296833674"
-    },
-    {
-      "path": "authored/konsiar-van-westendorp-pricing/survey-template.md",
-      "sha256": "5b065965f4c81b844ccb45954f32bcbd260880d85f6376e35cef5f229038b6aa"
-    },
-    {
-      "path": "authored/konsiar-van-westendorp-pricing/vw_analysis.py",
-      "sha256": "ac99d46f42256fc30728c0f0cc84ab1c398498d3cfbd5835b3cbed014f96bc8a"
-    },
-    {
-      "path": "guides/45-effectcraft-motion-films.md",
-      "sha256": "0714b569980654676088c4b5ca5174aac9774f2dbd07de6a5b6c856a14af3673"
-    },
-    {
-      "path": "authored/effectcraft-motion-films/SKILL.md",
-      "sha256": "f2aa5f9dfb89121906e7a2adb2442e525568c2d1c30b131f8296a29e109dfba4"
-    },
-    {
-      "path": "guides/46-untangle-codebase.md",
-      "sha256": "6357239f7425f757f8368b41b21c5be01417de943facc506af5e6e66f755281e"
-    },
-    {
-      "path": "guides/47-effectcraft-explainer-studio.md",
-      "sha256": "5efa6624dbe818fcbfcedd90e730b7f6d62da2b2f416a7caa5e14a44a48b1c53"
-    },
-    {
-      "path": "authored/effectcraft-explainer-studio/LICENSE",
-      "sha256": "4d31554e7ffa1a7427124ff7a4debce15a5226777ed446ca06a2aad4d2a7260c"
-    },
-    {
-      "path": "authored/effectcraft-explainer-studio/SKILL.md",
-      "sha256": "2328ffe7f4f44104ccb0a665e0f2867f94f602231674aa9f54b3bde042c5f56d"
-    },
-    {
-      "path": "authored/effectcraft-explainer-studio/assets/world_110m.json",
-      "sha256": "26081d84e735742fa607268a73b256814e46a15d2214fe1b05b0428995a68a4b"
-    },
-    {
-      "path": "authored/effectcraft-explainer-studio/examples/data-demo.spec.json",
-      "sha256": "1bd34fc0885212ce91b2489335af680049274b96a7b019c319d26ad77ffdf25c"
-    },
-    {
-      "path": "authored/effectcraft-explainer-studio/references/effectcraft-notes.md",
-      "sha256": "0a50a14e194ae18089dcd20cd6e4fd9b49fe2a5f08b90bf6dccafe9a2462610a"
-    },
-    {
-      "path": "authored/effectcraft-explainer-studio/references/qa.md",
-      "sha256": "d8d737554685fcf7032cfcb463227f092ceaba5b7e36b39bb5ae361105990931"
-    },
-    {
-      "path": "authored/effectcraft-explainer-studio/references/spec.md",
-      "sha256": "04b412c87055efd77d08e18e8646a020427e0e88682f6031bf12e08633f5543a"
-    },
-    {
-      "path": "authored/effectcraft-explainer-studio/references/storytelling.md",
-      "sha256": "410136720b07c1a682734cea39fbb1b4a48080d5d4163dfe1a9f7a155f93b473"
-    },
-    {
-      "path": "authored/effectcraft-explainer-studio/references/voice.md",
-      "sha256": "83cc83b8fdbc034931607b6fa02ae469fa7f4d332e7c8b9a3763f32740a80480"
-    },
-    {
-      "path": "authored/effectcraft-explainer-studio/scripts/ecx.py",
-      "sha256": "bf6b10ac23600b0259003ec65cbe0919c39a88078f117b8dccab71957869a432"
-    },
-    {
-      "path": "authored/effectcraft-explainer-studio/templates/starter.spec.json",
-      "sha256": "ecae2686ec533aab6cbb9a36dfcb6024ec2bc4ee3be12ab383e618db29fb4652"
-    },
-    {
-      "path": "packages/effectcraft-explainer-studio.zip",
-      "sha256": "24a5600ea64425c96c260f71392aa8210e507a831a0fe80ac5743907f8e5ffbe"
-    },
-    {
-      "path": "guides/48-unslop.md",
-      "sha256": "9bf418759b06da970f2cba82e0a0b1e3f8f605391c4f0575d9ed794ba57a12af"
-    },
-    {
-      "path": "guides/49-diagram-design.md",
-      "sha256": "880ca46f996a61268d681b8c19b219dbbed19ac63195067e8f96af56a7a80ae3"
-    },
-    {
-      "path": "guides/50-humanizer.md",
-      "sha256": "5b61ac35152ddd4bc6b9990a83cb48e39d068618d6703bd9583d72b570ba9316"
-    },
-    {
-      "path": "guides/51-last30days-research.md",
-      "sha256": "51ac29e004f1632da200677d159ecf5ffb41a785b1626c4c609e9efd30cdf211"
-    },
-    {
-      "path": "guides/52-scrapling-official-skill.md",
-      "sha256": "1daf2b04817e8cec1ce2f362f9c154078687645b31741ead33dd3d79602917e7"
-    },
-    {
-      "path": "guides/53-book-to-skill.md",
-      "sha256": "a27436fbb24fd2279054dfc0431026cb15161d3d2b998ce068ee8b957c7fbaff"
-    },
-    {
-      "path": "guides/54-wondelai-book-frameworks-pack.md",
-      "sha256": "460df2dae54937ecf8c30b5fa00c05d653290ce52594e4242092416ea16f9868"
-    },
-    {
-      "path": "guides/55-anthropic-official-skills-pack.md",
-      "sha256": "52e22dfa94b827935a042bf14c52a0676b3a37a2d5a88aa61677bb276708d06f"
-    },
-    {
-      "path": "guides/56-anthropic-financial-modeling-pack.md",
-      "sha256": "a8eeb5636066f49fbc09bafbfa14f98d760861989abaeddaa21e9f5c2d41b4e8"
-    },
-    {
-      "path": "guides/57-anthropic-legal-and-sql-pack.md",
-      "sha256": "466917da2c455ae6aba7bad547edaa5d96401b2646af3ff1f3861d2c8532c520"
-    },
-    {
-      "path": "guides/58-rampstack-ops-content-picks.md",
-      "sha256": "561ea6a5685e069b180f1a451a4cf8afb48a89b2133c2c6d3b5590c4d73f56a3"
-    },
-    {
-      "path": "guides/59-closer-sales-team-skills.md",
-      "sha256": "ef6b3ccbfc7d7e8f06e7afe30996563a56c3aa565163b3ee612385c05d0edf1e"
-    },
-    {
-      "path": "authored/editorial-texture-backgrounds/SKILL.md",
-      "sha256": "cd63135678e90aa0bbc5741babf954d674864ac6241d454602ca0878754d9839"
-    },
-    {
-      "path": "authored/effectcraft-storyboard-motion-graphics/SKILL.md",
-      "sha256": "7bafc4990fb8c14c2d846ebb88e6331dcddba3ae45fbeacfd1da1a3e90e85cb3"
-    },
-    {
-      "path": "guides/60-editorial-texture-backgrounds.md",
-      "sha256": "4d5d8379c2abdfa5cdc36ac8d1f5c3c9d0441343885c344584fbdbe6bfeb78aa"
-    },
-    {
-      "path": "guides/61-effectcraft-storyboard-motion-graphics.md",
-      "sha256": "972968adffa8f5c3fe0cbd1e2dd235fecf046935901d587579e4ac80b873da5b"
-    }
-  ]
+ "format": 2,
+ "parts": [
+  "manifests/sources-01.json",
+  "manifests/sources-02.json",
+  "manifests/sources-03.json",
+  "manifests/sources-04.json",
+  "manifests/sources-05.json",
+  "manifests/sources-06.json",
+  "manifests/sources-07.json",
+  "manifests/sources-08.json",
+  "manifests/sources-09.json",
+  "manifests/sources-10.json",
+  "manifests/sources-11.json",
+  "manifests/sources-12.json",
+  "manifests/sources-13.json",
+  "manifests/sources-14.json",
+  "manifests/sources-15.json",
+  "manifests/sources-16.json",
+  "manifests/sources-17.json",
+  "manifests/sources-18.json",
+  "manifests/sources-19.json",
+  "manifests/sources-20.json",
+  "manifests/sources-21.json",
+  "manifests/sources-22.json",
+  "manifests/sources-23.json",
+  "manifests/sources-24.json",
+  "manifests/sources-25.json",
+  "manifests/sources-26.json",
+  "manifests/sources-27.json",
+  "manifests/sources-28.json",
+  "manifests/sources-29.json",
+  "manifests/sources-30.json",
+  "manifests/sources-31.json",
+  "manifests/sources-32.json",
+  "manifests/sources-33.json"
+ ],
+ "own_files": [
+  {
+   "path": "guides/01-taste-skill.md",
+   "sha256": "4c3a6929b1ffa299564b32b81fb227d2a59b3f5e9f0cd25394a39acb85f5225d"
+  },
+  {
+   "path": "guides/02-motionsites-web-builder.md",
+   "sha256": "483972399fd35ba9ec822cd53cc4bb7ab473ab00809f2438ffe381aba9ec9fbf"
+  },
+  {
+   "path": "guides/03-ui-ux-pro-max.md",
+   "sha256": "40ef1f32619efc4399868ccb43d946b85c4dff0277435d81216275ffa942f503"
+  },
+  {
+   "path": "guides/04-marketing-skills-pack-5-skills.md",
+   "sha256": "8a1292d49649b95809ce4c0a333632f7ea42acfdd971880c87d659d5fa354d0a"
+  },
+  {
+   "path": "guides/05-instagram-agent-skill-13-skills.md",
+   "sha256": "b1a226760147c6c58a8e4a2bd3a2f1c1cd8f8279dfaeec606afcfc98f4a0dc32"
+  },
+  {
+   "path": "guides/06-logo-design-skill.md",
+   "sha256": "364b0b9f54dd5077b478d254eda9ec3b4d34f521f57c0184860d334cd08da624"
+  },
+  {
+   "path": "guides/07-ponytail.md",
+   "sha256": "98e4db7e289564136096981e059f67d38d846b29ec6cc170871c3c5d187ed698"
+  },
+  {
+   "path": "guides/08-i-have-adhd.md",
+   "sha256": "d1d3f5165706e65c25758d641666351afc611de27e970d72f03e21044f087d58"
+  },
+  {
+   "path": "guides/09-founder-pricing-strategy.md",
+   "sha256": "e24cdebc57d5bde026299597f626f31663f54b878e3eb1b481999d3a6b36d794"
+  },
+  {
+   "path": "guides/10-caveman-the-instruction-only-skill.md",
+   "sha256": "08a31c37ddf21e06796beb87699fb940e8605ec90d81ac59626b1dceff93df32"
+  },
+  {
+   "path": "guides/11-apple-design.md",
+   "sha256": "1b5120db3e34b1768911897f62f1a16d8a697a07b1b1adaac50fdcefebc6d276"
+  },
+  {
+   "path": "guides/12-lottiefiles-motion-design.md",
+   "sha256": "b4f47ca0292f004369f520399d4d548c6fc2db9305514132afb0b03fcc925da8"
+  },
+  {
+   "path": "guides/13-artcraft-controls-effectcraft-photocraft-designcraft.md",
+   "sha256": "735238dfe7427027a0589490e5fdfd3398abcedeae47ebc2a930825e8ca3a596"
+  },
+  {
+   "path": "guides/14-bang-motion.md",
+   "sha256": "c113e3bcc10b5207597188e4fa3d89a1befe8871c1ccbd7a19f603a7a73d3e56"
+  },
+  {
+   "path": "guides/15-charlie-hills-motion-graphics-skills.md",
+   "sha256": "23174c189a706672e8c1eda2a823e10c7d8211d0bf4daeebb1fb1605c1cd42bd"
+  },
+  {
+   "path": "guides/16-claude-motion-motion-design.md",
+   "sha256": "17e52a31a66c2ad2bc8d59b67ed8f9709baaaf14f39ac4a6d998a09905262e3d"
+  },
+  {
+   "path": "guides/17-lobzyjay-motion-direction-and-critique.md",
+   "sha256": "86c11290ac49b455d7ddb772e071da3fb1f1e6485096d32774a95b1a68ca2aef"
+  },
+  {
+   "path": "guides/18-remotion-best-practices.md",
+   "sha256": "bb129984bda9000e821f2de00e3ab4e05be329c1c6e3b76ec0282094c0b5ecad"
+  },
+  {
+   "path": "guides/19-real-sfx.md",
+   "sha256": "24d06af1998fe50d9bdd4b4fa53b2386411a8c0d4be6282de1a8ca7192fc23e4"
+  },
+  {
+   "path": "guides/20-earshot-audio-review-and-real-sound-skills.md",
+   "sha256": "978516b23c7f58d755081b76f299e92dae75d72596f27a6b113d9763d1f841d0"
+  },
+  {
+   "path": "guides/21-claude-watch-no-whisper-mode.md",
+   "sha256": "3021cfc7061b3a910472c046166f64259fa082fea3e4cc8ce3e0cc89ed877db2"
+  },
+  {
+   "path": "guides/22-brag.md",
+   "sha256": "9394f12edaf01441152d51e91e5e52d763e7d78b8dc5fd3924d738d73828b8ab"
+  },
+  {
+   "path": "guides/23-agent-reach-public-reading-scope.md",
+   "sha256": "df4a50130849c6a60e00b3953646e2034229d0e822dc2eb9350b8e1944ed83e4"
+  },
+  {
+   "path": "guides/24-lisaan-al-dawat-companion.md",
+   "sha256": "e5b342a9c15fa97cce7f3bedcf3ee6cb2423b2b72f1450f8d16f36aadd78a3f8"
+  },
+  {
+   "path": "guides/25-konsiar-motion-reels-v2.md",
+   "sha256": "3d4895bc60caba66356b7aaec34cb9897d17b25e4f4c7cfe008c28ff12e8d67e"
+  },
+  {
+   "path": "guides/26-rea-reverse-engineer-anything.md",
+   "sha256": "b60bd2a3d626223083e02ffb959191ee78a94fb8f4087b0678884f78a7ad4917"
+  },
+  {
+   "path": "guides/27-velocitas-triple-hook-original-adaptation.md",
+   "sha256": "5de3ff99047b55639061499f5b3158f09b562192f171ebb18fc7dc3059774ed6"
+  },
+  {
+   "path": "guides/28-content-principles-by-remy-gaskell.md",
+   "sha256": "bfa257cf9928428c4be0ab1eb7bba44544d496fbe3c0f7665fe49fafc31ceea6"
+  },
+  {
+   "path": "guides/29-cloudflare-security-audit.md",
+   "sha256": "3fe8de92d70f0dcbd31d0e05876c738ea6a2d498e32d160e966b3cb42747261a"
+  },
+  {
+   "path": "guides/30-matt-pocock-reviewed-engineering-skills.md",
+   "sha256": "228f02213c9faa8b726d634e1a06719cb1d12e8c52d8b115c3cd49606ff8a27a"
+  },
+  {
+   "path": "guides/31-impeccable.md",
+   "sha256": "33e9a8cbcc0ed19b5100766ae0c774bee24b212aee0cbeb5f6494b9e5b9dc140"
+  },
+  {
+   "path": "guides/32-everything-claude-code-coding-standards-only.md",
+   "sha256": "86a02e8a0a8022ff075f2503c3d7da5e9cf7028895177349770eb0e75463a08e"
+  },
+  {
+   "path": "guides/33-anatomy.md",
+   "sha256": "a761b618a5bba38a5a1afb6ba48de048da78f07efa42c955e05ee3b73d0c8c64"
+  },
+  {
+   "path": "guides/34-hallmark.md",
+   "sha256": "e65655e3db20d0f86d5b44857efd06906a4a8fd0c435c7f08e06abbea52e1c2c"
+  },
+  {
+   "path": "guides/35-addy-osmani-source-driven-development.md",
+   "sha256": "aa0e2f8ce113c97f983a28aa80964d567b00e2d14122f96bfeb0b4cdcfcd969c"
+  },
+  {
+   "path": "guides/36-graphify-local-code-only-skill.md",
+   "sha256": "033f2ebdb4f4d461266da4e26c1cc2b463c5cf69ec060a629650c6365c356310"
+  },
+  {
+   "path": "guides/37-karpathy-inspired-coding-guidelines.md",
+   "sha256": "776ff8a975a0af5eec0738a88233a3e31db2093ce24d3603f75eda2b4ecf2b85"
+  },
+  {
+   "path": "guides/38-anthropic-frontend-design-and-webapp-testing.md",
+   "sha256": "98612025bb5e6405ce5a19a4efca368adf8ffae0d985a493b0548ba74edf9116"
+  },
+  {
+   "path": "guides/39-superpowers-debugging-and-verification.md",
+   "sha256": "91356f52976668cad9ac93de286e3daac7c361bb8a619ae79aeb5bf3b4021251"
+  },
+  {
+   "path": "authored/content-message-audit.txt",
+   "sha256": "3867bb18c29bda92b3708c1136e589aa55ec8efc5004f92b7705e7cadada11b6"
+  },
+  {
+   "path": "authored/konsiar-v2-original.txt",
+   "sha256": "29e1a34f2ff825a6d46d2021db3e7fe8482f64231407aaca9998bc7e5949b283"
+  },
+  {
+   "path": "authored/lisaan-skill-original.txt",
+   "sha256": "ac128ad1a6ad250f67d7fa76ef5512a02848bcc11d56eb857e144261f6d0a217"
+  },
+  {
+   "path": "authored/velocitas-triple-hook.txt",
+   "sha256": "3b3153783eb03e6492485cd7ebf35e82db9a7178bca7b43161163935f2eb3136"
+  },
+  {
+   "path": "projects/business-packs/agency-framework.md",
+   "sha256": "78a627fa83230a7b2335a9e3904de0e70a605386b290c35e1e51beb3a70f2e09"
+  },
+  {
+   "path": "projects/business-packs/onboarding.md",
+   "sha256": "9b3b078cab8b504949e4cb23b7be1194c1620e3a7fefc69e5964de04d3e80181"
+  },
+  {
+   "path": "projects/konsiar/konsiar-design.md",
+   "sha256": "17321ce4ed66b4de2d7b7567fc4e3a72d514912084abf7309a208ea2a1c77ba4"
+  },
+  {
+   "path": "projects/konsiar/konsiar-engineering.md",
+   "sha256": "1b9194493d73c385c18a4a2dc1bfa00d4461dcbde20b806069f6614426c73d89"
+  },
+  {
+   "path": "projects/konsiar/konsiar-marketing.md",
+   "sha256": "3d4b2ca26369687b8beeb2fff5703452b0a3f26fb1ad9d6d846acdcfa598fd2f"
+  },
+  {
+   "path": "projects/outreach/outreach-reliability.md",
+   "sha256": "817b4c07871b80d8ac14e5c4b4ea845769c205ecf3dc23fa1e5d9395cebfd688"
+  },
+  {
+   "path": "projects/outreach/outreach-review.md",
+   "sha256": "107e050859fd1ab46c73611629783ac6eeb64676886672d7e76cd5519dfa1f0f"
+  },
+  {
+   "path": "projects/personal/personal-practice.md",
+   "sha256": "402917e4895794d1d2f1a2b205319184b596f444f2414f007216854aafb31342"
+  },
+  {
+   "path": "guides/40-vercel-find-skills.md",
+   "sha256": "e92cf8a2b5ff4ec5fda681c6afd6a8de2aa18f6b363602eeda4b38a51ccaa5b1"
+  },
+  {
+   "path": "guides/41-seven-psychology-rules-selling.md",
+   "sha256": "4c85b4b979cf1ee75815fbcdc2813d3ced3a8366e16820a058566ef189156dfd"
+  },
+  {
+   "path": "authored/seven-psychology-rules-selling/SKILL.md",
+   "sha256": "a8c7a031a0dd6fe27dcee31a1fa0fcb04fc94789b8e1b30cd980b7db006b1d83"
+  },
+  {
+   "path": "guides/42-claude-seo-free-core.md",
+   "sha256": "24f91f956b4235f7eea020e734c6bafe540f4576d13175cb128e073877e4b2b9"
+  },
+  {
+   "path": "guides/43-geo-seo-claude-audit.md",
+   "sha256": "743d2a73fffc5666d1901e685fb3374171df75e78a2f057d9025fbef44f49a40"
+  },
+  {
+   "path": "references/tools/seo-mcp-tools.md",
+   "sha256": "37f626137af2b88f628472e479f5cec517d59167b5ba052a63c815de565cda50"
+  },
+  {
+   "path": "guides/44-konsiar-van-westendorp-pricing.md",
+   "sha256": "4473ddbc7b8eea8221f14cc3abad66cb74e7be4d3a1f8359eebffa9acc877633"
+  },
+  {
+   "path": "authored/konsiar-van-westendorp-pricing/SKILL.md",
+   "sha256": "1a7183411a960cf88c8d5cb5a04b75c3cdd22ebfee9a0365fe39dcd4d0320b12"
+  },
+  {
+   "path": "authored/konsiar-van-westendorp-pricing/SYNTHETIC_example_responses.csv",
+   "sha256": "79495a427253b47ed82d65c9aafe0fbe0c94e3f65ce1a82e77f1e30296833674"
+  },
+  {
+   "path": "authored/konsiar-van-westendorp-pricing/survey-template.md",
+   "sha256": "5b065965f4c81b844ccb45954f32bcbd260880d85f6376e35cef5f229038b6aa"
+  },
+  {
+   "path": "authored/konsiar-van-westendorp-pricing/vw_analysis.py",
+   "sha256": "ac99d46f42256fc30728c0f0cc84ab1c398498d3cfbd5835b3cbed014f96bc8a"
+  },
+  {
+   "path": "guides/45-effectcraft-motion-films.md",
+   "sha256": "0714b569980654676088c4b5ca5174aac9774f2dbd07de6a5b6c856a14af3673"
+  },
+  {
+   "path": "authored/effectcraft-motion-films/SKILL.md",
+   "sha256": "f2aa5f9dfb89121906e7a2adb2442e525568c2d1c30b131f8296a29e109dfba4"
+  },
+  {
+   "path": "guides/46-untangle-codebase.md",
+   "sha256": "6357239f7425f757f8368b41b21c5be01417de943facc506af5e6e66f755281e"
+  },
+  {
+   "path": "guides/47-effectcraft-explainer-studio.md",
+   "sha256": "5efa6624dbe818fcbfcedd90e730b7f6d62da2b2f416a7caa5e14a44a48b1c53"
+  },
+  {
+   "path": "authored/effectcraft-explainer-studio/LICENSE",
+   "sha256": "4d31554e7ffa1a7427124ff7a4debce15a5226777ed446ca06a2aad4d2a7260c"
+  },
+  {
+   "path": "authored/effectcraft-explainer-studio/SKILL.md",
+   "sha256": "2328ffe7f4f44104ccb0a665e0f2867f94f602231674aa9f54b3bde042c5f56d"
+  },
+  {
+   "path": "authored/effectcraft-explainer-studio/assets/world_110m.json",
+   "sha256": "26081d84e735742fa607268a73b256814e46a15d2214fe1b05b0428995a68a4b"
+  },
+  {
+   "path": "authored/effectcraft-explainer-studio/examples/data-demo.spec.json",
+   "sha256": "1bd34fc0885212ce91b2489335af680049274b96a7b019c319d26ad77ffdf25c"
+  },
+  {
+   "path": "authored/effectcraft-explainer-studio/references/effectcraft-notes.md",
+   "sha256": "0a50a14e194ae18089dcd20cd6e4fd9b49fe2a5f08b90bf6dccafe9a2462610a"
+  },
+  {
+   "path": "authored/effectcraft-explainer-studio/references/qa.md",
+   "sha256": "d8d737554685fcf7032cfcb463227f092ceaba5b7e36b39bb5ae361105990931"
+  },
+  {
+   "path": "authored/effectcraft-explainer-studio/references/spec.md",
+   "sha256": "04b412c87055efd77d08e18e8646a020427e0e88682f6031bf12e08633f5543a"
+  },
+  {
+   "path": "authored/effectcraft-explainer-studio/references/storytelling.md",
+   "sha256": "410136720b07c1a682734cea39fbb1b4a48080d5d4163dfe1a9f7a155f93b473"
+  },
+  {
+   "path": "authored/effectcraft-explainer-studio/references/voice.md",
+   "sha256": "83cc83b8fdbc034931607b6fa02ae469fa7f4d332e7c8b9a3763f32740a80480"
+  },
+  {
+   "path": "authored/effectcraft-explainer-studio/scripts/ecx.py",
+   "sha256": "bf6b10ac23600b0259003ec65cbe0919c39a88078f117b8dccab71957869a432"
+  },
+  {
+   "path": "authored/effectcraft-explainer-studio/templates/starter.spec.json",
+   "sha256": "ecae2686ec533aab6cbb9a36dfcb6024ec2bc4ee3be12ab383e618db29fb4652"
+  },
+  {
+   "path": "packages/effectcraft-explainer-studio.zip",
+   "sha256": "24a5600ea64425c96c260f71392aa8210e507a831a0fe80ac5743907f8e5ffbe"
+  },
+  {
+   "path": "guides/48-unslop.md",
+   "sha256": "9bf418759b06da970f2cba82e0a0b1e3f8f605391c4f0575d9ed794ba57a12af"
+  },
+  {
+   "path": "guides/49-diagram-design.md",
+   "sha256": "880ca46f996a61268d681b8c19b219dbbed19ac63195067e8f96af56a7a80ae3"
+  },
+  {
+   "path": "guides/50-humanizer.md",
+   "sha256": "5b61ac35152ddd4bc6b9990a83cb48e39d068618d6703bd9583d72b570ba9316"
+  },
+  {
+   "path": "guides/51-last30days-research.md",
+   "sha256": "51ac29e004f1632da200677d159ecf5ffb41a785b1626c4c609e9efd30cdf211"
+  },
+  {
+   "path": "guides/52-scrapling-official-skill.md",
+   "sha256": "1daf2b04817e8cec1ce2f362f9c154078687645b31741ead33dd3d79602917e7"
+  },
+  {
+   "path": "guides/53-book-to-skill.md",
+   "sha256": "a27436fbb24fd2279054dfc0431026cb15161d3d2b998ce068ee8b957c7fbaff"
+  },
+  {
+   "path": "guides/54-wondelai-book-frameworks-pack.md",
+   "sha256": "460df2dae54937ecf8c30b5fa00c05d653290ce52594e4242092416ea16f9868"
+  },
+  {
+   "path": "guides/55-anthropic-official-skills-pack.md",
+   "sha256": "52e22dfa94b827935a042bf14c52a0676b3a37a2d5a88aa61677bb276708d06f"
+  },
+  {
+   "path": "guides/56-anthropic-financial-modeling-pack.md",
+   "sha256": "a8eeb5636066f49fbc09bafbfa14f98d760861989abaeddaa21e9f5c2d41b4e8"
+  },
+  {
+   "path": "guides/57-anthropic-legal-and-sql-pack.md",
+   "sha256": "466917da2c455ae6aba7bad547edaa5d96401b2646af3ff1f3861d2c8532c520"
+  },
+  {
+   "path": "guides/58-rampstack-ops-content-picks.md",
+   "sha256": "561ea6a5685e069b180f1a451a4cf8afb48a89b2133c2c6d3b5590c4d73f56a3"
+  },
+  {
+   "path": "guides/59-closer-sales-team-skills.md",
+   "sha256": "ef6b3ccbfc7d7e8f06e7afe30996563a56c3aa565163b3ee612385c05d0edf1e"
+  },
+  {
+   "path": "authored/editorial-texture-backgrounds/SKILL.md",
+   "sha256": "cd63135678e90aa0bbc5741babf954d674864ac6241d454602ca0878754d9839"
+  },
+  {
+   "path": "authored/effectcraft-storyboard-motion-graphics/SKILL.md",
+   "sha256": "7bafc4990fb8c14c2d846ebb88e6331dcddba3ae45fbeacfd1da1a3e90e85cb3"
+  },
+  {
+   "path": "guides/60-editorial-texture-backgrounds.md",
+   "sha256": "4d5d8379c2abdfa5cdc36ac8d1f5c3c9d0441343885c344584fbdbe6bfeb78aa"
+  },
+  {
+   "path": "guides/61-effectcraft-storyboard-motion-graphics.md",
+   "sha256": "972968adffa8f5c3fe0cbd1e2dd235fecf046935901d587579e4ac80b873da5b"
+  },
+  {
+   "path": "authored/saved-reels-to-skills/SKILL.md",
+   "sha256": "11ffa78b6e2ac41c8336fffa6a773c8931534df15628f9a85f695eb785700e76"
+  },
+  {
+   "path": "guides/62-saved-reels-to-skills.md",
+   "sha256": "d7b824e1aea1a4255ed66d5a73f5d3cf18f1ac2eaa93f7a853f7f1a2bf6f0dc0"
+  },
+  {
+   "path": "manifests/sources-33.json",
+   "sha256": "228625ad30c8146fe5e6e0c9e16bdc070bbf944771214f638e5a6399510b51c9"
+  }
+ ]
 }
