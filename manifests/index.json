@@ -423,6 +423,10 @@
   {
    "path": "manifests/sources-33.json",
    "sha256": "228625ad30c8146fe5e6e0c9e16bdc070bbf944771214f638e5a6399510b51c9"
+  },
+  {
+   "path": "references/tools/paper-animators.md",
+   "sha256": "e1594b21f2af039e0f343fa4bf594f2b060f78902b5698bbec21e4188767181b"
   }
  ]
 }
