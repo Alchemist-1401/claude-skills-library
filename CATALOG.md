@@ -2023,7 +2023,7 @@ Grow a small business without a sales team or paid tools. Play A finds likely bu
 ## How to use
 Read `authored/signal-led-prospecting-content/SKILL.md`, then give it the business, for example:
 
-> Use signal-led-prospecting-content for my pricing consultancy. Buyer: early-stage founders who just raised. Signals: funding announcements and hiring posts. Review signals with me weekly and draft the messages; I send them myself.
+> Use signal-led-prospecting-content for a B2B service business. Buyer: early-stage founders who just raised. Signals: funding announcements and hiring posts. Review signals with me weekly and draft the messages; I send them myself.
 
 or:
 
