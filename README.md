@@ -25,7 +25,7 @@ Preparation downloads reference files. It does not execute upstream scripts, ins
 - `CATALOG.md` - the same usage material together for easy reading.
 - `CLAUDE.md` - a short entry point.
 - `projects/` - eight separate copy-ready project references, not installable skills.
-- `references/tools/` - separate tool usage notes, including the two local MCP tools from the SEO reel. No servers are installed by intake.
+- `references/tools/` - separate tool usage notes: the two local MCP tools from the SEO reel and the Paper Animators web tool from the setupspawn reel. No servers are installed by intake.
 - `authored/` - the recovered authored skill texts and original authored skill packages; file markers inside the Konsiar text preserve its original folder layout.
 - `packages/` - byte-exact ZIP downloads of original authored skill packages, for one-file transfer. Not required for intake; the same files exist unpacked under `authored/`.
 - `manifests/` - the exact selected source paths, commits, file hashes and licenses/notices to retrieve. This is the source of truth for what preparation actually downloads.
